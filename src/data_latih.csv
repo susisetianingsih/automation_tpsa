@@ -1,0 +1,904 @@
+question,answer,comment
+Is there commitment and support from Top Management regarding cyber security management? ,yes,there is a formal document
+"Is there regular reporting regarding ""Cyber Security"" to Company Management (DIC and/or BOD)? ",yes,montly
+"Does your company carry out regular ""Gap Assessments"" on IT Security Management compared to the following International Security Framework?",yes,International Organization for Standardization (ISO) 27001; National Institute of Standards and Technology (NIST); and Central of Internet Security (CIS) AWS Trusted Advisor AWS Snapshot
+Does your company have a policy/procedure/standard regarding IT Security?,yes,we have policies/procedures/standards regarding the following matters: Information Security Policy; Data Governance; Data Privacy; Antivirus/Antimalware; User Access Management; Password Management; Patch Management; Secure Development Secure Programming Standard; Security Configuration Standard (application; database; & infrastructure); Security Hardening; Vulnerability Assessment; Penetration Testing; Information Security Incident Management; IT Asset Management; Backup & Restore; Mobile Device Security Bring Your Own Device (BYOD) (settings include implementation details; or prohibitions; as well as special permits if there are exceptions); Physical & Environmental Security; Cryptography; System Logging Monitoring (including Security Event Management); Information classification (identification; classification; labeling; and handling); Remote Access Control; Email security; SOC
+Has a periodic review and update been carried out (at least once a year) regarding cyber risk assessment?,yes,cyber risk assessments are conducted periodically
+Does your company store customer data in the following categories?,yes,Personally Identifiable Information (PII); Name; address; identity number (eg: KTP/Passport & NPWP); date and place of birth; biological mother's name; biometric records; Bank account; debit/credit card number; geotagging data; and others. Protected Health Information (PHI): medical history data; medical test/treatment results; insurance information; medical claim receipt; and others. Operational Data: sales and service transactional data; customer activity data. Financial Data: financial reports; tax report; salary data/payslip; bank account information; and others. 
+Has your company implemented several security controls on the network?,yes,Secure Network Configuration; Firewall Technology; Anti Distributed Denial of Service; Application Delivery Control; Domain Name System (DNS) Security; War Driving is not applicable -> Wifi authentication using SSO
+Has your company implemented several security controls on email services?,yes,SMTP; SPF; DMARC; DKIM; Antivirus/Antimalware; Antispam; MFA; Tags or mark e-mail from outside of the organization; Email containing sensitive information is encrypted and protected; S/Mime
+Does your company have implemented some security controls on the server?,yes,Administrator Account Restriction; Multi Environment Server; Endpoint Firewall for Server on Premise; Endpoint Firewall for Cloud Server; Cloud Security Assessment System
+Has your company implemented several security controls for clients?,yes,Local Administrator account restriction; Removable Media Storage restriction; Antivirus/antimalware; End-point Detection Response (EDR)
+Has your company implemented several security controls on the application?,yes,Secure programming Audit trail/audit log transactions (example: data retention is at least 30 days); Audit trail/audit log activity for user accounts including account privileges (example: data retention is at least 30 days); Transport Layer Security (TLS) protocol (minimum version 1.2) with secure cipher; Web Apps only use secure protocols (https) Hashing for passwords; Encryption for confidential data (eg payroll data; sub goals; etc.); Three tier system architecture (client-server system/application); Multi Factor Authentication (MFA) to log in from the internet network (for Internal Apps can be access from the Internet); Captcha on Login; Form Static Application Security Testing (SAST); Dynamic Application Security Testing (DAST); Testing security features/functions of purchased software before it is used by operations. 
+Has your company implemented several security controls in IT asset management (hardware & software including license)?,yes,Complete & valid IT asset Inventory System; Regular stock take; Software Asset Management Tools (SAM Tools); Standar spesifikasi hardware; Standard Software & Hardware Specification
+"Has your company managed ""Patch Management"" and ""Antivirus"" adequately?",yes,"Routine patch update. Testing patches before deploying to production Disabling the automatic patch updates feature on systems and applications in production environments Routine monitoring of the patch deployment process Monitoring and review regarding status updates for ""Endpoint Antivirus"" (eg at least weekly) Follow up ""Endpoint Antivirus"" with offline status and/or outdated signature > 3 days"
+Has your company carried out a Vulnerability Assessment (VA) and Penetration Testing (Pentest)?,yes,VA carried out regularly (compliance policy check and vulnerability and port scanning from Intranet); Regular Port scanning from Internet; Pentest carried out regularly Perimeter tests are carried out regularly Remediation Time (due date) to solve other vulnerabilities
+"Has your company implemented ""System Hardening"" adequately?",yes,Security Configuration standards Regular Configuration Compliance Review Hardening of IT infrastructure before use in operations
+"Does your company have implemented a ""Personnel Security"" & ""IT Security Awareness"" program?",yes,Every employee (permanent/contract/outsource) has signed a contract/non Disclosure Agreement (NDA) regarding the obligation to maintain the confidentiality/security of information. There are formal disciplinary rules/rules from HC/HR for employees who are proven to have committed violations. which causes data leaks. Providing regular awareness to new and existing employees at NEOP (for example: in the form of e-posters; emails; screensavers; etc.) at least annually Awareness training programs (for example online video training; seminars; workshops ; etc.) minimum carried out annually Regular phishing testing (minimum 1 or 2 times a year) Regular spear/targeted phishing testing (minimum annually) Phishing awareness and testing for Managerial Up Level Users (Manager; General Manager; Chief; BOD; and BOC including the secretary) Routine evaluation of program awareness Phishing Report Button Providing routine awareness & training at least once a year regarding data privacy to personnel who have authorization to access and process data personnel.
+What is the organizational IT level in your company?,yes,Corporate Functions
+Does your company have PIC IT Security?,yes,Exist and dedicated
+Does this service include any Business Process Outsourcing (eg Claims Handling Accounts Payable Data Analytics etc.),no,no
+Is this service providing just infrastructure?,no,no
+Is the service managing/processing data or providing a managed application,no,no
+Will the vendor use another 3rd party for any part of this service ,no,no
+Is the service developing (writing code) an application/software for this service,no,no
+Do you have a security policy in place,yes,We have documented Information Security Policy and Procedure
+Do you have staff responsible for the implementation of information security within the organization,yes,Implementation of information security is under responsibility of Information Security and Data Privacy (ISDP) Department
+Are you accredited to a recognized Information Security Standard,yes,We have obtain certification in ISO 27001 and ISO 27701
+Do you educate employees on Information Security policies and procedures on at least an annual basis,yes,Information security awareness training provided during on-boarding for new employees and quarterly program for existing employees.
+Is there an inventory of all IT assets drawn up and maintained,yes,We have IT Asset inventory and maintained/updated regularly.
+Do you have a defined Data Handling procedure in relation to how third-party data should be handled,yes,we have data handling procedure
+Do you have a formal IT asset decommissioning process in place including secure destruction of all electronic media,yes,We have documented disposal procedure.
+Do you have an Access Management Policy documented and implemented,yes,Access Management policy is part of our SMKI (Sistem Manajemen Keamanan Informasi) Policy
+Do developers have ongoing access to perform changes in any production environments containing PII financial or other confidential data,no,no
+Do you have a process in place for detection of unauthorized hardware and software,no,We have implemented tool to detect any unauthorized software.
+Do you have the ability to encrypt Astra International's data,yes,We implement AES256 and TLS 1.2 encryption for data at rest and data in transit
+Will mobile devices inc. laptops & tablets be used for this service,yes,yes we perform system hardening before use.
+Do you secure physical access to offices data centers or other storage areas where Astra International data will be stored/accessed,yes,Storage of Astra's data will be located at AWS cloud storage the physical security will follow AWS's high standard. AWS has obtained ISO27001 and SOC 2 type 2 standard.
+Do you have a change management process to manage approve and track IT changes,yes,We have documented change management process as part of SMKI
+Do you operate a system hardening process to ensure that systems are securely configured,yes,yes we perform system hardening before use.
+Do you deploy anti-virus anti-malware and anti-spyware across all platforms and services,yes,We use EDR solution for workstation and anti-virus anti-malware anti-spyware.
+Do you have a Patch management process that includes security patches and application and operating system patching,yes,yes
+Do you backup business data securely,yes,Our data securedly store at AWS Cloud with automatic backup performed regularly..
+Are all production systems monitored for availability performance and capacity,yes,Production system located at AWS Cloud where the availability performance and capacity regularly montored and reported to Halodoc.
+Do you have appropriate firewalls to protect applications network infrastructure and access and egress points ,yes,We have implemeted firewall
+Do you have secure software development processes in place,yes,We have developed and implemented Secure System Engineering Principles to ensure secure development processes in place.
+Is security testing code reviews vulnerability scanning and sign-off part of the process and completed prior to 'go live',yes,yes
+Would you share your secure development and testing procedures with Astra International,yes,Can be shared during screen-sharing session (meeting) 
+Do you have an information security incident management process,yes,We have documented Cybersecurity Incident Management Playbook.
+Do you re-assess exposure to information security and privacy threats at least yearly and enhance technology risk controls in response to change,yes,We review the SMKI Policy and Procedure yearly and we have implemented threat intelligence tool to ensure updated threats are always being anticipated.
+Do you track and manage flow of sensitive information,yes,We have implemented control over sensitive information by documented policies and procedure and Data Privacy Impact Assessment process.
+Do you have monitoring systems implemented to detect and respond to unauthorized activity to the systems storing Astra International data,yes,We have implemented SOC to monitor any unauthorized activity in 24x7 monitoring.
+Do you undertake penetration tests on at least an annual basis. Has a penetration test been performed during the last 12 months that covers the services being provided to Astra International.,yes,We regularly performed penetration test by our 3rd party.
+Do you have a functional capability in place to Identify specific individual / customer records,yes,yes
+Do you have a functional capability in place to delete data related to a specific individual(s) from your systems (including backups),yes,yes
+Do you have an information security program with written policies and procedures? if no please describe,yes,yes
+In the past 3 years have you reported cyber incident data breach data loss or certification/indication of noncompliance to any governmental regulatory or other supervisory body? if yes please describe,no,no
+Do you store or transfer our important to the environment outside of your IT systems such as third party or cloud environment?,yes,we use cloud environment
+Do you have SSAE compliance ISO certification SOC2 or other similar documentation concering compliance and security? if yes please provide details,yes,we have ISO 27001 certification
+Do you share or allow access to our important Information with any third party? If yes please describe.,yes,Halodoc shared data to third-party for identify verification and digital signature
+Do you limit and periodically review user access privileges to important information? If no please describe.,yes,we conduct regular user access review
+Do you have detection processes and procedures to ensureawareness of unauthorized access to our important information? If no please describe,yes,yes
+Do you require multi-factor authentication in higher risk access suchaccess or access to critical information? If no please describe.,yes,yes
+Do you conduct periodic vulnerability assessments and penetrationtesting using an independent third party? If no please describe.,yes,yes
+Do you put any distributed denial-of- service (DDoS) attack prevention measures in place? If yes please describe.,yes,we have web application firewall in place
+Do you put any intrusion detection and prevention systems (IDS/IPS) in place? if yes please describe.,yes,for we implemented aws guardduty for threat detection
+Do you put malware prevention or detection measures in place? if yes please describe.,yes,we have EDR technologies installed on our endpoints
+Are there any security measure in place on e-mail such as attachment restrictionor blocking black-listed sender?,yes,yes
+Are there any technical controls to restrict employee's internet access suchweb filtering? If yes please describe.,yes,we use web filtering to prevent access to certain website
+Do you provide security awareness training for all personnel handlingimportant information including business email scamcharge of preparing and processing remittance/payments at least annually? if yes please describe.,yes,yes
+Do you provide for periodic cybersecurity personnel training for IT personel? if no please describe.,yes,yes
+Do you have an incident response plan for the case of security incidents? if no please describe.,yes,yes
+Do you maintain audit trails relative to the confidentiality integrity andof important information? If no please describe.,yes,yes
+Do you have written business continuity and disaster recovery procedures that include the identification of critical business systems for your organization define RTO and RPO for the identified periodic testing of the procedures at least annually? If no please describe,yes,yes
+Do you have information security policy/rules in place?,yes,yes
+Do you conduct information security trainings periodically?,yes,Quarterly
+Do you perform identification and certification of the user by ID and a password/fingerprint/multifactor authentication when access to a server and/or PC.,yes,yes
+Will you be storing confidential information (including customers information) from AJSM electronically? e.g. Mainframe Computer Server PC External Storage Cloud Service Others Supplementary Item (⇒please specify )（※If yes please advise the type of the storage）,yes,If cloud service please confirm the name of the service provider (AWS)
+Do you take security measures for servers and PCs to which data is save?,yes,Security configs and hardening
+Do you take any security measure for receiving/providing data with us (AJSM) or your subcontractor (if e.g. Encryption Password protectionyes please provide such measures),no,We don’t have subcontractors
+Are all your servers and PCs used for providing services to us (AJSM) protected with the most updated version of anti-virus software?,yes,yes
+If your computers are connected to outside networks (including the connection in dedicated line and VPN) and have access to our customer database do you take following security measures including but not limited to below?,yes,yes
+Do you have framework for any information security related incident to be promptly reported internally and to us (AJSM)?,yes,Halodoc Cybersecurity Playbook
+(If any subcontractors) Please list up the all names of the subcontractors relevant to the service to us (AJSM). Do you require these subcontractors to have the same level of information security as yours under the service agreement with your subcontractors?,no,(no subcontractors)
+"In the event of work from home do you require your employees to adhere to the following?
+Prohibited from installing unauthorized file sharing software (Only applicable for corporate service providers) Prohibited from installing unauthorized file sharing software
+Installed with the most updated version of the operating system applications and anti-virus software
+Enabling WPA2 for home Wi-Fi connectivity.",yes,Installed with the most updated version of the operating system applications and anti-virus software
+Is there a documented and published Information Security Strategy document that is aligned with the organization's IT strategy? If yes what is the date of its last update?,yes,last amended 9 May 2022
+"Are there established information security policies that are developed in line with the applicable industry standards and regulations and reviewed on a periodic basis by management? If yes: 
+a) Which industry standards were leveraged to develop the information security and privacy policies?
+b) How are the policies accessed by employees contractors and third parties?
+c) Please list the policy documents with last review date?",yes,"a) ISO 27001
+b) Through company shared drive and internal wiki page"
+Does the organization have an information security function responsible for security initiatives within the organization? If yes what are the number of dedicated security professionals in the information security function?,yes,10+
+Does the organization have a process to approve exceptions to the established information security policies? If yes are these exceptions reviewed approved and tracked periodically?,yes,reviewed periodically
+ Is there a data protection policy?,yes,KBJ 003 - Privacy and Personal data protection policy
+Is there an IT risk management framework in place to define overall IT risk at an enterprise level? If yes who owns it?,yes,yes
+"Is there a procedure in place to perform regular cyber risk assessments leveraging a common risk assessment framework? If yes:
+a) Which framework(s) is leveraged for the cyber risk assessments?
+b) Who performs the assessments?
+c) When was the last assessment performed?",yes,yes
+"Does the organization utilize Cloud services to store/process sensitive information? If yes 
+Is a detailed list of cloud applications and services adopted by individual business units teams and employees identified and maintained within the software asset inventory? 
+Who is responsible for maintaining the software asset inventory (change update removal)?",yes,Private only
+Has the organization performed a cyber security due diligence / risk assessment of the services procured from the cloud service provider prior to onboarding? If yes describe the inputs considered to perform the risk assessment (e.g. contract SOC2 questionnaire etc.).,yes,Vendor VISA and SMKI
+Has the organization identified and implemented additional information security measures to compliment those provided by the cloud services provider? If yes what are the additional measures.,yes,Based on the risk assessment there will be addiitional hardening program.
+Has encryption been enabled for the sensitive data stored at rest in the cloud and in transit to the cloud? Also are communications that include the exchange of sensitive information with the cloud services transmitted through secure channels? If so what are they?,yes,yes
+Does the organization maintain an inventory of its assets (physical and software) along with the relevant details such as asset owner and asset location? If yes is this inventory reviewed on a regular basis?,yes,Asset inventory with appropriate details is maintained and reviewed
+Is there a process in place to support and define the request procurement deployment management and retirement of assets?,yes,A defined process exists to manage the asset lifecycle
+Is the asset inventory integrated with SIEM and cyber threat intelligence capabilities ( for example SIEM alerts are tied back to specific assets that are traceable)? If yes what SIEM is in use,yes,yes
+Does the organization have a configuration management program / policy defining minimum baseline standard configuration for information systems (such as operating system-workstations servers application network device database web server)?,no,Workload instances are updated automatically based on security patches available from AWS
+Are information systems regularly scanned for malware? If yes which platform or tools are used and what is the frequency of scans? Are there procedures in place to update anti-malware systems regularly?,yes, Information systems contain anti-malware systems and EDR auto update
+Are Firewall rules configured to safeguard against network intrusion(IDS/IPS)? What is the Firewall classification (Packet-filter/Proxy/gateways/Stateful packet inspection)?,yes,Network controls have been implemented. The firewall is Gateway and Proxy
+"Are internal network-level controls based on network segmentation and network access controls.
+Is VPN configured/mandated for secure remote access if yes (a) what is the authentication mechanism and encryption method. (b) Is split tunneling implemented on VPNs.
+Are the controls managed internally or by a 3rd party?",yes,yes
+Does the organization have a mechanism (such as tools and processes) in place for monitoring and controlling network traffic at the perimeter (either at the organization level -DMZ and / or security zones within the organization-VLANs)?,yes,Network access control appliances (e.g. IDS IDP and anti-DDOS attack controls) are in place
+Are Data Loss Prevention (DLP) tools implemented within the organization system to detect and/or prevent data theft? If yes which tools are used?,yes,It has been implemented in Cloud storage
+Are encryption techniques applied to protect the confidentiality of sensitive data passing over public and private networks?,yes,transmission of sensitive data over public or private network is encrypted
+Does your organisation comply with information security standards such as: ISO27001 and/or ISO27701?,yes,yes
+Has your organisation appointed a Data Protection Officer (DPO)? If yes who is the DPO and have their roles and responsibilities clearly defined within the organisation?,yes,DPO consists of a team comprising of PPGR Data Privacy and Legal team. All roles and responsibilities are clearly defined within Halodoc.
+Does your organisation have certain standardised data protection policies and procedures to govern personal data processing?,yes,yes
+Does your organisation have any mechanism in place that governs any personal data-related request complaint or communication from the data subject/individuals?,yes,Halodoc Privacy Policy (www.halodoc.com/kebijakan-privasi) covers scope for individuals to contact Halodoc in these queries.
+Does your organisation have any mechanism in place to provide the information to the customer regarding the use and processing of their personal data? (for instance: the use of Privacy Policy),yes,the use of Privacy Policy (www.halodoc.com/kebijakan-privasi)
+Does your organisation employ any technical and organisational measures to ensure the security of personal data in both electronic and physical forms (including data at rest and in transit)?,yes,Technical and organisational measures Halodoc implements include data encryption and access control.
+Does your organisation have a standard procedure and timeframe for notifying controllers whose data may have been impacted by privacy or security incidents?,yes,We have an internal policy for it that documented on Data Breach Response and notification Guidelines ISDP-GRCDP.001/GL/VI-2022/000
+Does your organisation have any documentation in place on what types of personal data are collected and how the data is being processed and disclosed?,yes,We have internal policy with specific clause that requires recording of personal data processing in KBJ-003.
+Does your organisation have any mechanism in place to notify controllers prior to engaging a sub-processor(s)?,yes,We have a process to inform owners regarding change implementation
+Does your organisation have any data protection and privacy policy that provides guidance regarding the re-disclosure reuse and sharing of customer information with external parties?,yes,We have internal policy for sharing of information with external parties in KBJ-003.
+Does your organisation have a data retention policy that covers paper and electronic records (including e-mail) in support of the applicable regulations standards and contractual requirements? Has the data retention policy been fully implemented within your systems?,yes,yes
+Does your organisation have a governed data disposal process upon the termination of the agreement and/or as instructed by the controller?,yes,yes
+Does your organisation have any formal training for the employees to raise awareness on data protection and privacy?,yes,we have internal awareness program quarterly via webinar email blast or slack. We also have training program to increase the competency of personal data protection.
+Does the organization have a data classification policy? If yes has all data been classified accordingly? If yes are information system security plans aligned with the classification?,yes,Information security plans are aligned with the data classification policy
+Does the organization utilize third parties who (a) Have access to sensitive information or (b) Host sensitive data/information (e.g. benefits providers data center hosting providers BI vendors SaaS providers)?,yes,yes
+Does the organization perform cyber security due diligence / risk assessments of the services procured from third parties prior to contract execution? If yes who performs the assessments?,yes,VISA by GRC
+Prior to contract execution does the organization perform background checks on contractors and consultant employees where allowed by law?,yes,yes
+Are third party risk or security assessments performed on a periodic basis? If yes (a) What is the frequency of the assessment? (b) When was the last assessment performed ?,yes,Annual performance last performance was on April 2022
+Do the service agreements include a clear specification of all relevant terms conditions responsibilities and liabilities of both parties? Examples include: compliance audit reporting on-site review notification of change/risk SLAs data ownership insurance liability privacy dispute resolution problem reporting and escalation procedures ongoing monitoring and applicable regulatory requirements (e.g. regulator access)?,yes,All service agreement from third party has formalized agreement
+Does the organization have policies and procedures for employee and contractor hiring termination code of conduct ethics and background screening?,yes,yes
+"Are all employees provided periodic information security training and awareness as per the policies and procedures established by the organization? 
+Does this apply to contractors as well? 
+What is the frequency of such training and awareness activities?",yes,yes
+Does the organization store or process any sensitive information within its facilities/premises? At any 3rd party facilities?,no,no
+Is physical access to facilities restricted using access control measures such as badges biometrics etc.? Is the physical access list periodically reviewed and purged?,no,Halodoc does not store any physical based information in Halodoc office
+"Does the organization have fire suppression systems smoke detectors and HVAC sensors in place for their critical facilities that store and process organizational data? If yes:
+a) Who is notified and what is the notification mechanism ?
+b) What is the escalation process in such scenarios ?",no,Halodoc does not store any physical based information in Halodoc office
+Is a user ID prevented from containing PII or financial information or revealing the access level assigned to the user?,yes,User IDs are unique with no sensitive information
+Are all employees provisioned access to information assets through authorization mechanisms based upon least privilege access control user roles and job descriptions?,yes,access provisioned based on least privilege
+Is user access reviewed on a periodic basis? If yes what frequency? Is there a process in place to deprovision access to users that are not required per their job responsibility?,yes,Conducted on a once a month basis.
+Are mechanisms in place to provision access to users based on the organizational roles assigned to them?,yes,all users are assigned roles and access is provisioned according to their roles
+Is there a process established to appropriately grant and revoke temporary privileged access permissions? Does privileged access to information require approval from authorized approvers prior to being provisioned?,yes,Processed through ticketing system approval from system owner
+Is multi-factor authentication mandated for access to sensitive information?,yes,Access to any sensitive information requires multi-factor authentication
+Does the organization have a defined secure System (Software) Development Life Cycle (SDLC)? Are the developers trained on secure development practices (e.g. OWASP)? If yes what is the frequency of this training?,yes,A SDLC methodology exists with secure development guidelines. training is carried out once in 6 months
+"Does the organization produces a design specification and security architecture that is in line with the organization’s security and enterprise architecture?
+Does it accurately and completely describes the required security functionality and the allocation of security controls among physical and logical components?
+Are the changes to the architecture notified and documented?Is the review of architecture in place to make sure that the systems are secured?",yes,A SDLC methodology exists with secure development guidelines
+Does the organization develop data flow diagrams to understand the information flow within and between network segments as well as across the organization's perimeter to external parties?Does it include details more about the actors involved at different steps in a critical business process and whether these actor stores transmits or processes customer information.,yes,A SDLC methodology exists with secure development guidelines
+Prior to deployment is a new software reviewed scanned for vulnerabilities or penetration tested and approved? If yes what third parties and/or tools are leveraged to perform the tests?,yes,All new systems are tested reviewed and approved prior to deployment
+Does the organization have segregated development testing and production environments for information systems? Also does the organization restrain from using or obfuscate sensitive production data in non-production environments?,yes,Environments are segregated and sensitive production data is obfuscated in non-production environments
+"Does the organization enforce segregation of duties for development testing and approval of modifications to information systems?
+Do developers have access to production environments of information systems?",yes,Clear segregation of duties have been implemented
+Is access restricted by IP address and/or through the use of multi-factor authentication for key applications that can be accessed through the internet (i.e. critical applications applications that contain sensitive personal information or applications that perform money movement)?,yes,yes
+"Does the organization acceptance criteria for new information systems software updates and new versions? Also 
+Is adequate security testing performed and the results accepted by business owners?",yes,yes
+"Which of the following type of Personal Identifiable Information 
+that will be used by the organization?",yes,Halodoc will be shared the phone number of GoTo Plus users from Tokopedia and Halodoc will utilize this for the purpose of cooperation.
+"Is there any non-PII data that is considered by the organization
+as important or classified information? (e.g client's contract 
+payment receipt etc)",yes,yes
+Does the organization has Authentication mechanism is in place for open communication?,yes,yes
+Does the organization has a key rotation procedures in place?,yes,yes
+Does the organization maintains any API / Technical Documentation ?IF so please provide the JIRA link for the same,yes,yes
+Are there clearly defined roles and responsibilities for vulnerability management? If yes how often are vulnerability scans executed and are they performed by internal or external resources?,yes,Scans are provided daily based on our CVE management process.
+Has a network penetration test been performed? If yes what is the frequency and when was the last penetration test?,yes,Every 6 months. Jan 2022
+Has a network vulnerability assessment been performed? If yes what is the frequency and when was the last vulnerability assessment?,yes,Once a month
+Is application/software whitelisting in place for the organization?,yes,yes
+"Does the organization subscribe to information security special interest groups specialist security forums or professional associations? 
+Are there any current subscriptions for risk intelligence ?",yes,yes
+Does the organization have designated personnel and processes for managing the organization's reputation during and after a cybersecurity event?,yes,a designated team/personnel exists
+Are security events collected across information systems and archived? Are defined administrator activities recorded and archived?,yes,Security events as well as admin activities are logged
+Has a centralized Security Information and Events Management (SIEM) tool been implemented to monitor security events across information systems used by the organization? If yes (a) What are the implemented SIEM tools? & (b) Are the security events reviewed with corrective action when necessary?,yes,a centralized SIEM tool or monitoring tool has been implemented to collect logs 
+Is there a process in place to scan information systems for known security vulnerabilities?,yes,regular vulnerability scanning is performed
+"Does the security patch process includes a risk assessment to prioritize patches? If yes:
+a) Describe the security patch process including the risk assessment and the tools used to prioritize patches and the implementation timeframe associated with each priority.
+b) Does the patch management process cover all information systems and assets based on the vendor type OS and environment.
+c) Is there a monitoring process in place to confirm all information systems and assets are patched to the appropriate level?",yes,yes
+Do you have a documented Incident Management program in place for cyber security incidents that includes Incident classification guidelines and resolution timelines? Is the program document reviewed and approved by management on an annual basis?,yes,An Incident Management program is established and periodically reviewed. We have established an Incident Playbook
+Is the plan tested at least annually and based on the gaps observed (if any) are there adequate remediation activities that are carried out to address those gaps?,yes,An Incident Management program is established and periodically reviewed. We have established an Incident Playbook
+Are information systems (or the SIEM tool) configured to generate relevant real-time alerts and notifications with sufficient information to the incident management team upon detection of a security incident?,yes,automated processes exist to notify relevant teams of any security incidents
+Is there a written security incident response plan with defined roles and responsibilities? If yes how often is the incident response plan tested and are the responsible personnel included in the test exercise?,yes,We have established an Incident Playbook
+Does organization plan and conduct any incident response exercises and scenarios for the workforce involved in the incident response to maintain comfort in responding to real-world threats?Are there any recent incidents that has occured and if so- how was the incident dealt and resolved?,yes,Regularly conduct incident response exercises
+Is there a defined procedure to perform post-mortem analysis of resolved incidents to gain learning and avoid similar incidents in the future?,yes,yes
+Is there a 24/7 escalation process for security incident response from identification to closure?,yes,yes
+Is there a documented business continuity and business recovery plan containing detailed action plans resource requirements forms and annexes for all aspects of the business and IT?,yes,A Business Continuity Plan exists with aforementioned inclusions
+Is there a data backup policy that provide consistent rules for backup management to ensure backups are available when needed?,yes,yes
+Do you periodically test the backups?,yes,yes
+Error messages should be generic and it should not present any details of the internal state of the application,yes,Only non sensitive information is logged
+Application may generate default error messages which might contain sensitive details. These messages should be replaced/suppressed with sanitized error messages.,yes,yes
+"TLS must be used to protect and encrypt sensitive plaintext information in transit. It is recommended to use TLS for the end-to-end connection however TLS must implemented to secure the following:
+• Authentication pages (before and after the user is authenticated)
+• Once sensitive information are submitted before authentication (to ensure intruder cannot intercept and capture the sensitive details in plaintext)",yes,yes
+Connection to the web application must not accept any connection via HTTP.,yes,yes
+The main advantages of using strict-transport security header is to ensure that the browser does not communicate to the server over non-TLS connections. This helps reduce the risk of TLS stripping attacks as implemented by the sslsniff tool,yes,yes
+Ensure masking of critical details such as PAN SSN Credit Card number etc. and ensure the details are encrypted in database. PCI DSS guidelines for credit/debit card related security controls should be implement where applicable.,yes,yes
+When keys are stored in your system they must be properly secured and only accessible to the appropriate staff on a need to know basis.,yes,yes
+Weak TLS ciphers must be disabled on all servers. For example SSL v2 has known weaknesses and is not considered to be secure. Additionally cryptographically weak ciphers and should not be used.,yes,yes
+TLS certificates should be signed by a reputable certificate authority (“CA”). The name on the certificate should match the fully qualified domain name (“FQDN”) of the website. The certificate itself should be valid and not expired.,yes,yes
+Cache control HTTP header should be disabled for the browser data caching within HTML page. In addition to that sensitive input fields should have autocomplete off. This control helps to avoid browser from capturing unnecessary credentials,yes,yes
+Evaluation should be in place to ensure only required sensitive data is being transported or stored. It is recommended to use tokenization in order to reduce data exposure risks ,yes,yes
+The application shouldn't have any sensitive authentication credentials hardcoded into the source code.,yes,yes
+Application should prompt for reconfirmation of the password if there are any changes to the detail of users.,yes,yes
+"Ensure a generic message is shown while resetting the password such as “You will receive a password reset email should the account exist” in place of a message such “The password reset link for your ID (johnsmith01) has been sent to you email”
+
+note: This control is subject to business requirements.
+",yes,yes
+Strong passwords protect systems from being hacked through brute force methods. Password length should be configured to be 8 characters or more.,yes,yes
+All accounts should be locked indefinitely after 3 or less failed attempts and would only be unlocked by the administrator. ,yes,yes
+The connection between the processing layer (business logic tier) and database layer (data tier) of Web application must have authentication control. The credentials of business logic tier should be stored in centralized location and locked down.,yes,yes
+The application and middleware must be configured to run with least privileges required to limit the impact in the event of a system compromise.,yes,yes
+The application supports integration to directory service such as LDAP for user authentication.,no,no
+The organization must be aware of MFA controls implemented by the provider to limit the chance of unauthorized access to the web application.,yes,yes
+The application supports integration to Enterprise SSO (Single Sign On) platform for user authentication using standard protocol such as SAML and OpenID Connect.,yes,yes
+Session tokens must be generated securely and appropriate in length.,yes,yes
+New session token must be generated when the user authenticates to the system (application) as well as when the user privilege level changes,yes,yes
+A user’s session must be closed after an inactive period of 15 or less minutes. ,yes,yes
+It is highly recommended to implement the feature to detect multiple simultaneous sessions and if the feature detects there is a sign of session cloning attempts the session should be dropped wipe and the user requires to re-login again.,yes,yes
+After user logs out from the application the session and corresponding data on the server must be destroyed/wipe in order to ensure the session cannot be revived.,yes,yes
+Application should be designed whereby the Logout button is displayed and functioning on ever page. ,yes,yes
+The session cookie should contains secure flags and HttpOnly to ensure the risk of session id being accessible to client-side scripts attack is minimal and that the data is being transfer only occurs via TLS encryption.,yes,yes
+Each session cookie should be valid for a limited time.,yes,yes
+"All output functions must contextually encode data before being sent to the user. 
+
+note: This control helps to reduce the XSS attacks.
+",yes,yes
+User input field should be validated on the input content. For security purposes whitelisting is preferable compare to blacklisting. This means that application should accept data that meets a certain criteria only.,yes,yes
+"In order to ensure the application is protected against SQL injection attacks SQL queries should pass user content into a bind variable. 
+
+note: SQL queries should not be created dynamically using string concatenation. Similarly the SQL query string used in a bound or parameterized query should never be dynamically built from user input in order to ensure the application is protected against SQL injection attacks SQL queries should be made with user content passed into a bind variable.",yes,yes
+"This control helps to reduce the risk of CSRF (Cross-site request forgery) attacks by embedding a random value into HTML form.
+The value of the random token should not be known to attacker.",yes,yes
+It is advisable to use encoding for all pages containing HTTP headers or meta tags within HTML. Encoding must be consistent such as the use of UTF-8. This control helps to reduce the risk of Cross-site scripting attacks,yes,yes
+"If upload process is required for the Web application ensure the uploaded files are being validated in terms of size type contents as well as the file cannot override the destination path for the file. Below controls could be in place to avoid file upload attacks:
+• Use a whitelist of allowed files
+• Scan for Malware
+• Randomize uploaded file names etc.
+",yes,yes
+"If user uploaded content is being hosted X-content-type-options should be used to help nosniff header that the browser does not try guessing the data type. 
+note: Ensure server or application determines the data type",yes,yes
+The source of the input must be validated before processing. For example if input is expected from a POST request do not accept the input variables from GET request. Ensure that the application should access only allowed HTTP Methods and prevent disallowed ones such as change of GET to POST PUT to DELETE etc. ,yes,yes
+Application should avoid copying user-controllable data into HTTP response headers or else data should be strictly validated to prevent response header injection attacks. Failing to prevent this could also lead to cross-site scripting attacks.,yes,yes
+X-Frame options header helps to prevent the content from being loaded by a foreign site in a frame such as <frame> <iframe> <embed> or <object>. This control reduces the risk of clickjacking attacks,yes,yes
+"Content Security Policy (CSP) and X-XSS-Protection headers help to protect the application from common Cross-site scripting (XSS) attacks
+*Content Security Policy (CSP) which is defined by W3C Specs as standard header refer to https://www.w3.org/TR/CSP1/ for more information.",yes,yes
+Access logs should be checked on a regular basis and upon confirmation of suspicious activities.,yes,yes
+Does the application supports integration to Enterprise Identity Management solution for user access management.,yes,yes
+All access decisions must be based on the principle of least privilege. Also the rights for the user accounts must be defined based on their roles and responsibilities.,yes,yes
+"Files or parameters must not have direct object reference access. This is to avoid manipulation to grant excessive access. The access control must be based on following criteria: 
+• Authentication
+• Identification
+• Trusting Server-Side Information",yes,yes
+Lack of validation of forward requests may lead to intruders obtaining access to sensitive content without authentication to the system. It can also lead to attackers luring users to malicious websites,yes,yes
+Do you have any business requirement regarding Card Holder Data (CHD) or Cardholder Data Environment (CDE)?,no,no
+If currently you are not having any business requirement regarding CHD or CDE is there any possibility in the future that you will access CHD or CDE either because of arising business requirement or because of incidental access?,no,no
+Do you have any business requirement regarding Personally Identifiable Information (PII)? If you do please explain how it is necessary,yes,Halodoc collects and processes PII in light of our Privacy Policy (www.halodoc.com/kebijakan-privasi)
+Do you establish and implement specific policies on the company's operational management?,yes,We have the Information Security Policy and Procedure 
+Is there’s any of our data being used and sold by partner to other party?,no,Halodoc is not allow any kind of personal information data transaction. All kind of personal information usage will be under Halodoc agreement and policy
+Do you have any procedure to ensure the other parties has complied to data sharing and disclosure regulation?,yes,"We have the ""Privacy and Data Protection Policy"" which have been implemented."
+What’s the retention policy?,yes,"Retention Policy included in the ""Privacy and Data Protection Policy"" where we implement several controls such as:
+- Personal Data stored by the Company must be in the form of encrypted data.
+- In accordance with the provisions of the laws and regulations governing the mandatory period of storage of Personal Data in each industry;
+- etc."
+How can we (or our customer) order the deletion of data (exercise the right to be forgotten)?,yes,yes by a written request submitted by the Personal Data Owner.
+Do you comply with applicable laws and regulations for cross-border data transfer?,yes,Permenkominfo no. 20 Tahun 2016 (Pasal 22)
+Do you use the services of a third-party to manage following process: a. IS Development b. Data Processing c. Service Operation process of service development and/or a third-party to perform data processing(not limited to personal data customer data)?,no,no all points in this section will be managed by Halodoc
+Do you have a process in place to ensure that your sub-processor is subject to a contract with privacy and security requirements not lower than those stipulated in the contract that you have signed with third-party?,yes,yes
+Do you have your own Information Security Policy?,yes,We have the Information Security Policy and Procedure 
+Do you review and update your Information Security Policy periodically? How long is the interval period between review?,yes,Once a year
+Is your Information Security Policy easily accessible?,yes,It is available in the shared drive
+Did you encounter any major cyber security or personal data breach incidents in the past five years?,no,no
+If you've ever had a major security incident such as data leak how would you handle it?,no,no
+If you have major security incident do you inform your customer and/or your third party who are directly affected?,yes,yes
+Do you document any data breaches either general data or personal data including the impacts and remediations?,yes,yes
+Apakah Anda menyimpan bukti digital untuk kebutuhan forensik? (Do you preserve digital evidence for forensic needs?,yes,yes
+Have you had negative reviews from customers in the last 1 year ? If you have what are the negative reviews related to?What platform customer's used?such as IoS Android email social media etc,no,no
+Do you have privacy or security certifications in related industries? For example PCI DSS certification is required if credit card payment is involved; ISO 27001 if fintech in Indonesia.,yes,We have ISO 27001 certification.
+Do you have your own privacy policy?,yes,yes
+Do you update your privacy policy periodically?,yes,yes
+Is your Privacy Policy easily accessible?,yes,It is available in the shared drive
+Are you able to ensure the data subject's rights including the rights to access rectification erasure restriction of processing?,yes,yes
+Do you have awareness or a process in place to ensure that the data subject is not subject to automated decision-making including profiling?,yes,yes
+Do you have awareness or methods in place to ensure that direct marketing and personalised recommendation are carried out only after obtaining the data subject's prior consent and the data subject can withdraw consent?,yes,yes
+Do you have an assigned DPO or other similar privacy roles?,yes,we have 2 data privacy managers
+Do you have an in-house security delivery team?,yes,yes
+Does your security team have ever delivered a project in the whole security cycle (covering security requirements security design secure coding security testing and secure O&M)?,yes,yes
+Does your security team have personnel with more than five years of experience in security?,yes,yes
+Do you have a complete security process and security delivery management regulations and strictly comply with the requirements of each phase?,yes,yes
+Do you implement any standard security qualification certifications such as CSA Star or BSIMM certification?,yes,We have and implemented ISO27001 certification standard.
+Did you identify security needs and implement lifecycle management over the security needs?,yes,yes
+Did you implement security design for security needs and output the security design specifications or report?,yes,yes
+Are you protecting your system and your network from cyberattack by implementing perimeter security in your corporate environment? For example firewall antivirus IDS IPS etc.,yes,yes
+Do you define and implement access control restrictions on system access and physical access over any services you provide?,yes,yes
+Do you document your company's systems and network in the form of catalogs diagrams topologies or other form of documentation?,yes,Network topology and diagram are documented in a wiki page.
+Did you use any standard secure code scanning tool in the industry for code scanning and release the version only after all identified issues are resolved?,yes,yes
+Do you use any mainstream secure coding framework such as AngularJS against XSS attacks or OWASP Security Frameworks?,yes,We use Jenkins.
+Do you use open-source software that does not have any security issues?,no,no
+Do you have secure coding specifications and strictly comply with the specifications before version release?,yes,yes
+How do you guarantee security of module/software/development being licensed to us?,yes,yes
+What kind of data being stored in local storage (mobile phone) if any?,no,no
+Do you have security test specifications and test cases and strictly implement them?,yes,yes
+Do you have a commonly used commercial security test tool to scan the tested system?,yes,yes
+Does your testing team have strict test pass criteria and strictly follow the criteria in such a manner that versions that do not meet security standards cannot be released?,yes,yes
+Do you establish and implement monitoring of your company's access and network? Would you please state the monitoring tool your company uses?,yes,yes
+For all organizational entities (e.g. vendor's vendors subcontractors fourth parties Nth parties) is there a contractual relationship that extends obligations to each entity?,yes,Our visibility is only up to vendors and partners who work directly with Halodoc.
+Is there a set of information security policies that have been approved by management published and communicated to constituents?,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Is there a management-approved process for handling deviations and exceptions?,yes,yes
+Are information security personnel (internal or outsourced) responsible for information security processes?,yes,yes
+Is there an asset management program approved by management communicated to constituents and an owner to maintain and review?,yes,yes
+Is data classification documented for all assets?,yes,Included in the Evidence C.2 (SMKI Procedure)
+Is Information classified according to legal or regulatory requirements business value and sensitivity to unauthorized disclosure or modification?,yes,yes
+Is scoped data sent or received electronically encrypted in transit while outside the network?,yes,Evidence C.3 (Data Protection and Control Guideline)
+Does the program include policies for data in use in motion and at rest?,yes,Data in use In motion and at rest have been covered on the data protection and control guideline. Evidence C.3 (Data Protection and Control Guideline)
+Does regulated or confidential scoped data stored in a database include Database Encryption?,yes,Evidence C.11 (S3 Encryption)
+Are encryption keys managed and maintained for scoped data?,yes,Evidence C.4 (AWS Key Management System Screenshot). We use Google Workspace Single Sign-On with MFA to login into AWS KMS. Evidence C.5 (Google Workspace MFA)
+Is data segmentation and separation capability between clients provided?,yes,yes
+Are constituents required to attend security awareness training?,yes,yes
+Does the security awareness training program include techniques to recognize phishing attempts?,yes,yes
+Is there a process to remove access to systems containing scoped data within 24 hours for terminated constituents?,yes,yes
+Are Information Security requirements specified and implemented when new systems are introduced upgraded or enhanced?,yes,Evidence C.6 (Secure System Engineering Principle).
+Do systems and network devices utilize a common time synchronization service?,yes,yes
+Is there an access control program that has been approved by management communicated to constituents and an owner to maintain and review the program?,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Are unique IDs required for authentication to applications operating systems databases and network devices?,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Is there a password policy for systems that transmit process or store scoped systems and data that has been approved by management communicated to constituents and enforced on all platforms and network devices? ,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Is Multi-factor Authentication deployed?,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Is Multi-factor Authentication required for Privileged System Access?,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Are privileged user access rights reviewed at least quarterly?,yes,Evidence C.7 (User Access Review Report)
+Is a standards-based federated ID capability available to clients (e.g. SAML OpenID Single Sign On)?,yes,Single Sign On
+Are applications evaluated from a security perspective prior to promotion to production?,yes,yes
+Are identified security vulnerabilities remediated prior to promotion to production?,yes,Evidence C.8 (Halodoc Web & Mobile Application Security Assessment Report)
+Are information security reviews conducted and approved for the use or installation of open source software (e.g. Linux Apache)?,yes,yes
+Do application security reviews include a security review of API design?,yes,"We are using AWS API Gateway in addition to that we also performing automation API security testing in all our APIs by leveraging PYNT. 
+Evidence no. 
+E.1.3.1 PYNT API Testing
+E.1.3.2 PYNT API Test Case "
+Is a Web Application Firewall (WAF) enabled on web servers?,yes,AWS WAF enabled which will protect our web applications against various attack vectors.
+Is there an automated system to review and correlate log and/or behavioral events (e.g. SIEM)?,yes,"SIEM solution have been implemented and monitored 24/7/365. The policy included in Evidence C.2 (SMKI Procedure Point 9.2).
+SIEM Process and Monitoring Evidences no. J.3.2 Monitoring Process; J.3.2 Alerting; J.3.2 Remediation"
+Does regular security monitoring include all changes to privileged user access rights on all scoped systems and systems with scoped data?,yes,yes
+Is there a records retention policy and retention schedule covering paper and electronic records including email in support of applicable regulations standards and contractual requirements?,yes,yes
+Are end user device operating system versions that no longer have patches released prohibited?,no,Controls are heightened in identifying obsolete OSes and putting strong security layers (EDR) to prevent cyber incidents
+Is a virtual desktop infrastructure used for accessing transmitting or processing scoped data?,no,We are not using any VDI in our environment
+Are third party alert services used to keep up to date with the latest vulnerabilities for all end user devices?,yes,We are leveraging Endpoint vulnerability management tool 
+Are there technical controls to prevent unauthorized devices from physically connecting to the internal network or to detect and alert an administrator (e.g. NAC - Network Access Control)?,yes,yes
+Are third party alert services used to keep up to date with the latest network device vulnerabilities?,yes,yes
+Is every connection to an external network terminated at a firewall (e.g. the Internet Partner networks),yes,yes
+Are network or security technologies used to establish and enforce security requirements and block unauthorized traffic between segregated systems and other networks and systems?,yes,Evidence no. C.1 (SMKI Policy) and C.2 (SMKI Procedure).
+Are encrypted communications required for all remote network connections from external networks to networks containing scoped systems and data?,yes,We are using encrypted VPN. Evidence C. 9 (VPN Encryption).
+Are Network Intrusion Detection capabilities employed e.g. appliance software etc.?,yes,Evidence C. 10 (IPS).
+Is there a DMZ environment within the network that transmits processes or stores Scoped systems and data e.g. web servers DNS directory services remote access etc.?,no,no
+Is there a Third Party Risk Management Program (including ongoing monitoring) in place to address data protection safeguards (administrative technical and physical safeguards for the security of the client scoped data?,yes,The policy included in Document C.2 (SMKI Procedure) point 11.4. Assessment using VISA form evidence C.11 (Sample of VISA form) and C.12 (Sample of summary of assessment).
+Does the organization maintain policies standards and procedures for identifying and managing cyber supply chain risks (i.e. ensuring software and hardware components used as part of delivering a service or product do not present a risk)?,yes,Implemented Threat Intelligence to actively monitor supply chain attacks through alerting.
+Are third party alert services used to keep up to date with the latest server vulnerabilities?,yes,Vulnerability Intelligence Threat Feeds
+Does the data container security policy include security requirements implemented as part of the container build process?,yes,Image scanning have been implemented to discover vulnerability on the image level. 
+Does the data container security policy ensure Containers are scanned for vulnerabilities and identified vulnerabilities are remediated?,yes,"Same with U.1.12.3
+Evidence 
+U.1.12.6-Trivy Scanner"
+Does your organization have defined and published an information security policy that covers the to be provided service? If yes please provide a copy for review.,yes,yes
+Has your organisation appointed and deployed a (senior) information security officer (ISO/CISO) who is responsible for security management that covers the to be provided service? If yes specify in the details who is he reporting to?,yes,yes
+Does your organization has defined a responsible contact for information security related topics Including security incidents that covers the to be provided service? If implemented please specify Name Role Contact Details in the response details.,yes,yes
+Does your organization has defined a responsible contact for Service Availability and Business Continuity related topics who covers the to be provided service? If implemented please specify Name Role Contact Details in the response details.,yes,yes
+Has your organisation implemented an information security management system (ISMS) that is aligned with one or more industry standards or frameworks that covers the to be provided service? If yes please name the standards/frameworks in the response details field.,yes,yes
+Does a set of topic-specific security-related policies exists (e.g. access control information classification and handling vulnerability management asset management).,yes,yes
+Are all policies approved by management?,yes,yes
+Are policies properly communicated to employees?,yes,yes
+Are security policies subject to annual review?,yes,yes
+Are the reviews conducted at regular intervals?,yes,yes
+Are reviews conducted when circumstances change?,yes,yes
+Are responsibilities for the protection of individual assets and for carrying out specific security processes clearly identified and defined and communicated to the relevant parties?,yes,yes
+Are duties and areas of responsibility separated in order to reduce opportunities for unauthorized modification or misuse of information or services?,yes,yes
+Is there a procedure documenting when and by whom contact with relevant authorities (law enforcement etc.) will be made?,yes,yes
+Is there a process which details how and when contact is required?,yes,yes
+Is there a process for routine contact and intelligence sharing?,yes,yes
+Do relevant individuals within the organization maintain active membership in relevant special interest groups?,yes,yes
+Do all projects go through some form of information security assessment?,yes,yes
+Are operating procedures well documented?,yes,yes
+Are the procedures made available to all users who need them?,yes,yes
+Are information security requirements specified when new systems are introduced?,yes,yes
+When systems are being enhanced or upgraded are security requirements specified and addressed?,yes,yes
+Does a mobile device policy exist?,yes,yes
+Does the policy have management approval?,yes,yes
+Does the policy document and address additional risks from using mobile devices (e.g. theft of asset use of open wireless hotspots etc.),yes,yes
+Is there an inventory of all assets associated with information and information processing facilities?,yes,yes
+Is the inventory accurate and kept up to date?,yes,yes
+Is there a clearly defined owner for each information asset who is aware of his responsibilities?,yes,yes
+Is there an acceptable use policy for each class / type of information asset?,yes,yes
+Are users made aware of this policy prior to use?,yes,yes
+Is there a process in place to ensure all employees and external users return the organization's assets on termination of their employment contract or agreement?,yes,yes
+Is there a policy governing information classification?,yes,yes
+Is there a process by which all information can be appropriately classified?,yes,yes
+Is there a process or procedure for ensuring information classification is appropriately marked on each asset?,yes,yes
+Is there a procedure for handling each information classification?,yes,yes
+Are users of information assets made aware of this procedure?,yes,yes
+Is there a policy governing removable media?,yes,yes
+Is there a process covering how removable media is managed?,yes,yes
+Are the policy and process communicated to all employees using removable media?,yes,yes
+Is there a formal procedure governing how removable media is disposed?,yes,yes
+Is there a documented policy and process detailing how physical media should be transported?,yes,yes
+Is media in transport protected against unauthorized access misuse or corruption?,yes,yes
+Is there a rigorous equipment maintenance schedule?,yes,yes
+Is there a process controlling how assets are removed from site?,yes,yes
+Is this process enforced?,yes,yes
+Are spot checks carried out?,yes,yes
+Is there a policy covering security of assets off-site?,yes,yes
+Is this policy widely communicated?,yes,yes
+Is there a policy covering how information assets may be disposed or reused?,yes,yes
+Where data is wiped is this properly verified before reuse/disposal?,yes,yes
+Does the organization have a policy around how unattended equipment should be protected?,yes,yes
+Are technical controls in place to secure equipment that has been inadvertently left unattended?,yes,yes
+Is there a policy for teleworking?,yes,yes
+Does this have management approval?,yes,yes
+Is there a set process for remote workers to get access?,yes,yes
+Are teleworkers given the advice and equipment to protect their assets?,yes,yes
+Do organizational policies govern how information is transferred?,yes,yes
+Are procedures for how data should be transferred made available to all employees?,yes,yes
+Are relevant technical controls in place to prevent non-authorised forms of data transfer?,yes,yes
+Do contracts with external parties and agreements within the organization detail the requirements for securing business information in transfer?,yes,yes
+Do security policies cover the use of information transfer while using electronic messaging systems?,yes,yes
+Is there a process for selecting test data?,yes,yes
+Is test data suitably protected?,yes,yes
+Do all employees have to sign a non-disclosure policy covering the protection of customer data? ,yes,yes
+Do all employees providing the service receive security trainings at least annually? Please explain in the comments how you ensure security qualification and awareness.,yes,yes
+Do you conduct background checks on employees during the hiring process?,yes,yes
+Are these checks approved by appropriate management authority?,yes,yes
+Are the checks compliant with relevant laws regulations and ethics?,yes,yes
+Are the level of checks required supported by business risk assessments?,yes,yes
+Are all employees contractors and third-party users asked to sign confidentiality and non- disclosure agreements?,yes,yes
+Do employment / service contracts specifically cover the need to protect business information?,yes,yes
+Are managers (of all levels) engaged in driving security within the business?,yes,yes
+Does management behaviour and policy drive and encourage all employees contractors and 3rd party users to apply security in accordance with established policies and procedures?,yes,yes
+Do all employees contractors and 3rd party users undergo regular security awareness training appropriate to their role and function within the organization?,yes,yes
+Is there a formal disciplinary process which allows the organization to take action against employees who have committed an information security breach?,yes,yes
+Is this communicated to all employees?,yes,yes
+Is there a documented process for terminating or changing employment duties?,yes,yes
+Are any information security duties which survive employment communicated to the employee or contractor?,yes,yes
+Is the organization able to enforce compliance with any duties that survive employment?,yes,yes
+Is there a clear desk / clear screen policy?,yes,yes
+Is this well enforced?,yes,yes
+Do employees contractors and agents sign confidentiality or non disclosure agreements?,yes,yes
+Are these agreements subject to regular review?,yes,yes
+Are records of the agreements maintained?,yes,yes
+Is there a designated security perimeter?,yes,yes
+Are sensitive or critical information areas segregated and appropriately controlled?,yes,yes
+Do secure areas have suitable entry control systems to ensure only authorised personnel have access?,yes,yes
+Have offices rooms and facilities been designed and configured with security in mind?,yes,yes
+Do processes for maintaining the security (e.g. Locking up clear desks etc.) exist?,yes,yes
+Have physical protection measures to prevent natural disasters malicious attack or accidents been designed in?,yes,yes
+Do secure areas exist?,yes,yes
+Where they do exist do secure areas have suitable policies and processes?,yes,yes
+Are the policies and processes enforced and monitored?,yes,yes
+Are there separate delivery / loading areas?,yes,yes
+Is access to these areas controls?,yes,yes
+Is access from loading areas isolated from information processing facilities?,yes,yes
+Are environmental hazards identified and considered when equipment locations are selected?,yes,yes
+Are the risks from unauthorised access / passers-by considered when siting equipment?,yes,yes
+Is there a UPS system or backup generator?,yes,yes
+Have these been tested within an appropriate timescale?,yes,yes
+Have risk assessments been conducted over the location of power and telecommunications cables?,yes,yes
+Are they located to protect from interference interception or damage?,yes,yes
+Have you installed malware protection on all workstations and servers?,yes,yes
+Do you perform penetration testing at least annually?,yes,yes
+Does your company have an established and approved secure development policy implemented that applies to all software developed for Allianz? If yes please provide a copy for review,yes,yes
+Are privilege utility programs restricted and monitored?,yes,yes
+Is there a controlled change management process in place?,yes,yes
+Does the organization enforce segregation of development test and operational environments?,yes,yes
+Are processes to detect malware in place?,yes,yes
+Are processes to prevent malware spreading in place?,yes,yes
+Does the organization have a process and capacity to recover from a malware Infection.,yes,yes
+Is there a process in place to control the installation of software onto operational systems?,yes,yes
+Are there processes in place to restrict how users install software?,yes,yes
+Are information systems subject to audit?,yes,yes
+Does the audit process ensure business disruption is minimised?,yes,yes
+Is there a network management process in place?,yes,yes
+Does the organization implement a risk management approach which identifies all network services and service agreements?,yes,yes
+Is security mandated in agreements and contracts with service providers (in house and outsourced).,yes,yes
+Are security related SLAs mandated?,yes,yes
+Does the network topology enforce segregation of networks for different tasks and restrict communication between different segments?,yes,yes
+Do applications which send information over public networks appropriately protect the information against fraudulent activity contract dispute unauthorised discloser and unauthorised modification?,yes,yes
+Are controls in place to prevent incomplete transmission misrouting unauthorised message alteration unauthorised disclosure unauthorised message duplication or replay attacks?,yes,yes
+Does the organization develop software or systems?,yes,yes
+If so are there policies mandating the implementation and assessment of security controls?,yes,yes
+Is there a formal change control process?,yes,yes
+Is there a process to ensure a technical review is carried out when operating platforms are changed?,yes,yes
+Is there a policy in place which mandates when and how software packages can be changed or modified?,yes,yes
+Does the organization have documented principles on how systems must be engineered to ensure security?,yes,yes
+Has a secure development environment been established?,yes,yes
+Do all projects utilise the secure development environment appropriately during the system development lifecycle?,yes,yes
+Where systems or applications are developed are they security tested as part of the development process?,yes,yes
+Is there an established process to accept new systems / applications or upgrades into production use?,yes,yes
+Have you deployed encryption technology that ensures that confidential information or strictly confidential information transferred between your organization and Allianz is encrypted? What is your encryption policy?,yes,We implement SSH encryption using Secure File Transfer Protocol (SFTP) for file transfer to and from Allianz. Aside of that email communication is using Google Workspace's encryption standard.
+Do you encrypt confidential data and Personal Identifiable Information (PII) at-rest with a customer-specific encryption keys?,yes,We do implement encrypton at-rest but our encryption keys are not customer-specific generated automatically by system and rotated regularly.
+Is there a policy on the use of cryptographic controls?,yes,yes
+Is there a policy governing the whole lifecycle of cryptographic keys?,yes,yes
+Does the organization have a need-to-know and need-to-use principle in place?,yes,yes
+Do you use Multi-Factor-Authentication to protect administrative access to your systems and applications? If yes please provide the current method in the comment field.,yes,yes
+Is there a documented access control policy?,yes,yes
+Is the policy based on business requirements?,yes,yes
+Is the policy communicated appropriately?,yes,yes
+Are controls in place to ensure users only have access to the network resources they have been specially authorised to use and are required for their duties?,yes,yes
+Is there a formal user access registration process in place?,yes,yes
+Is there a formal user access provisioning process in place to assign access rights for all user types and services?,yes,yes
+Are privileged access accounts separately managed and controlled?,yes,yes
+Is there a formal management process in place to control allocation of secret authentication information?,yes,yes
+Is there a process for asset owners to review access rights to their assets on a regular basis?,yes,yes
+Is this review process verified?,yes,yes
+Is there a process to ensure user access rights are removed on termination of employment or contract or adjusted upon change of role?,yes,yes
+Is there a policy document covering the organizations practices in how secret authentication information must be handled?,yes,yes
+Is this communicated to all users?,yes,yes
+Is access to information and application system functions restricted in line with the access control policy?,yes,yes
+Where the access control policy requires it is access controlled by a secure log-on procedure?,yes,yes
+Are password systems interactive?,yes,yes
+Are complex passwords required?,yes,yes
+Is access to the source code of the Access Control System protected?,yes,yes
+Do you have a vulnerability management process in place covering identification risk assessment and remediation that covers the to be provided service? Please describe in the comment if and which SLAs apply to the remediation of vulnerabilities?,yes,yes
+Do you perform vulnerability scanning of your internet-facing interfaces and applications at least monthly?,yes,yes
+Does the organization have access to updated and timely information on technical vulnerabilities?,yes,yes
+Is there a process to risk assess and react to any new vulnerabilities as they are discovered?,yes,yes
+Does your organisation have an established & implemented Business Continuity Plan including a list of critical processes and recovery objectives that covers the to be provided service?,yes,yes
+Is there a capacity management process in place?,yes,yes
+Is there an agreed backup policy?,yes,yes
+Does the organization's backup policy comply with relevant legal frameworks?,yes,yes
+Are backups made in accordance with the policy?,yes,yes
+Are backups tested?,yes,yes
+Is information security included in the organization's continuity plans?,yes,yes
+Does the organization's information security function have documented implemented and maintained processes to maintain continuity of service during an adverse situation?,yes,yes
+Are continuity plans validated and verified at regular intervals?,yes,yes
+Do information processing facilities have sufficient redundancy to meet the organizations availability requirements?,yes,yes
+"Do have subcontracts or other agreements with third and fourth party suppliers that play a role to deliver this service? If yes please name all suppliers in the response details. If no third and fourth parties are involved select ""N.A."".",yes,AWS as our cloud provider
+Do you actively manage the risk of all of your third parties with a documented approach? Please indicate how will you ensure that appropriate information security safeguards are in place while delivering this service to Allianz?,yes,We regularly request the latest SOC 2 type 2 report from AWS to ensure that all security controls have been audited independently and there is no open issues.
+Where development has been outsourced is this supervised?,yes,yes
+Is externally developed code subject to a security review before deployment?,yes,yes
+Is information security included in contracts established with suppliers and service providers?,yes,yes
+Is there an organization-wide risk management approach to supplier relationships especially ones that are used to provide Allianz services?,yes,yes
+Are suppliers provided with documented security requirements?,yes,yes
+Is supplier access to information assets & infrastructure controlled and monitored?,yes,yes
+Do supplier agreements include requirements to address information security within the service & product supply chain?,yes,yes
+Are suppliers subject to regular review and audit?,yes,yes
+Are changes to the provision of services subject to a management process which includes security & risk assessment?,yes,yes
+Has the organization identified and documented all relevant legislative regulatory or contractual requirements related to security?,yes,yes
+Is compliance documented?,yes,yes
+Does the organization keep a record of all intellectual property rights and use of proprietary software products?,yes,yes
+Does the organization monitor for the use of unlicensed software?,yes,yes
+Are records protected from loss destruction falsification and unauthorised access or release in accordance with legislative regulatory contractual and business requirements?,yes,yes
+Is PII data identified and appropriately classified?,yes,yes
+Is PII data protected in accordance with relevant legislation?,yes,yes
+Are cryptographic controls protected in accordance with all relevant agreements legislation and regulations?,yes,yes
+Is the organizations approach to managing information security subject to regular independent review?,yes,yes
+Is the implementation of security controls subject to regular independent review?,yes,yes
+Does the organization instruct managers to regularly review compliance with policy and procedures within their area of responsibility?,yes,yes
+Are records of these reviews maintained?,yes,yes
+Does the organization regularly conduct technical compliance reviews of its information systems?,yes,yes
+Does your organization continuously monitor security relevant logs and events for anomalies using a SIEM or similar system that covers the to be provided service?,yes,yes
+Does your company have a data breach response plan implemented that covers the to be provided service? Please provide in the comments the scenarios covered.,yes,yes
+"Do you have a defined procedure implemented for notifying Allianz in case of a data breaches or other relevant events? 
+If yes please specify the method and interface in the detailed response field.",yes,yes
+"Has your company been able to successfully defend/mitigate attacks in the past? If you have experienced any major data or information security breaches in the past three years involving customer data or services please select ""not in Place"" and provide details.",no,We never experience any security or data breach so far.
+Does your organisation have insurance cover for information security incidents that covers the to be provided service?,yes,yes
+Are appropriate event logs maintained and regularly reviewed?,yes,yes
+Are logging facilities protected against tampering and unauthorized access?,yes,yes
+Are system administrator/operator logs maintained protected and regularly reviewed?,yes,yes
+Are all clocks synchronized within the organisation?,yes,yes
+Are management responsibilities clearly identified and documented in the incident management processes?,yes,yes
+Is there a process for timely reporting of information security events?,yes,yes
+Is there a process for reviewing and acting on reported information security events?,yes,yes
+Is there a process for reporting of identified information security weaknesses?,yes,yes
+Is this process widely communicated?,yes,yes
+Is there a process for reviewing and addressing reports in a timely manner?,yes,yes
+Is there a process to ensure information security events are properly assessed and classified?,yes,yes
+Is there an incident response process which reflects the classification and severity of information security incidents?,yes,yes
+Is there a process or framework which allows the organization to learn from information security incidents and reduce the impact / probability of future events?,yes,yes
+Is there a forensic readiness policy?,yes,yes
+In the event of an information security incident is relevant data collected in a manner which allows it to be used as evidence?,yes,yes
+Are your security policies procedures including Physical Security and Safety Information Security and Operational Resilience (which covers Business Continuity IT Service Continuity Management Crisis & Incident Management) formally documented and are approved by senior management in the last 12 months communicated to staff and relevant external parties published appropriately as to be available for reference and application and reviewed at planned intervals or if significant changes occur to ensure their continuing suitability adequacy and effectiveness?,yes,We have documented the policy and procedure in Sistem Manajemen Keamanan Informasi (SMKI) Policy and Procedure.
+Do you have specialist security resources with responsibility for security programs and initiatives including Physical Security and Safety Information Security and Operational Resilience (which covers Business Continuity IT Service Continuity Management Crisis & Incident Management) ? if yes are they aware of their responsibilities?,yes,Desribed in the Organization Structure of ISDP
+Are conflicting duties and areas of responsibility segregated to reduce opportunities for unauthorised or unintentional modification or misuse of the organisation's assets?,yes,Segregation of duties described in the ISDP OKR which reflecting different job description among functions.
+Is succession planning fully and effectively applied within your business?,yes,Desribed in the Organization Structure of ISDP which reflect structured/layered responsibilities to ensure succession planning at the same function.
+Have you implemented a mobile device security policy and supporting security measures to manage the risks introduced by using mobile devices?,yes,Governed at SMKI Procedure
+Do you have an implemented teleworking security management policy and supporting security measures to protect and secure information accessed processed and stored at teleworking sites?,yes,Governed at SMKI Procedure
+Do you perform background verification and security checks for all new personnel (permanent contract and temporary)?,yes,Governed at SMKI Procedure
+Do your employment contracts include specific sections to protect your information assets and include employees and contractors responsibilities for security?,yes,In employment contract.
+Do all your employees and contractors receive at least every 12 months security awareness education and regular updates in organisational policies and procedures covering Information Security Operational Resilience (including BCM ITSCM Crisis & Incident Management) and Physical Security and Safety as relevant to their job functions?,yes,Done via blast email or learning platform.
+Do you have an accurate up to date and consistent inventory of all assets associated with information and information handling facilities?,yes,Stated in Information Asset Register
+Do all assets associated with your information have clearly defined owners?,yes,Stated in Information Asset Register
+Do you have fully implemented acceptable use rules for all information and assets associated with information and information processing facilities?,yes,Governed at SMKI Procedure
+Do you have processes to ensure that all employees and external party users return all assets associated with information upon termination of employment contract or agreement?,yes,"Governed in ""Serah Terima Aset IT"" Procedure"
+Do you operate an information classification and labelling scheme and labelling based on the importance of the information to your organisation that has been applied throughout your business and systems?,yes,Governed at SMKI Procedure
+Have you developed and implemented procedures for information labelling in accordance with your information classification scheme?,yes,Governed at SMKI Procedure
+Have you developed and implemented procedures to prevent unauthorised disclosure modification removal or destruction of information stored on removable media in accordance with your information classification scheme?,yes,Governed at SMKI Procedure
+Have you developed and implemented procedures for secure disposal of sensitive media when no longer required?,yes,Governed at SMKI Procedure
+Have you developed and implemented procedures for managing the transfer of sensitive data on physical media to ensure that is protected against unauthorised access misuse or corruption during transportation?,yes,Governed at SMKI Procedure
+Do you have an access control policy in place that has been developed and implemented based on business and information security requirements?,yes,Governed at SMKI Procedure
+Do you control all access to networks and network services based on users only being provided with the level of access they have been specifically authorised to use?,yes,Governed at SMKI Procedure
+Have you developed and implemented a user registration process and de-registration process to enable the assignment of access rights?,yes,Governed at SMKI Procedure
+Have you developed and implemented a user access provisioning process to assign or revoke access rights for all user types to all systems and services ?,yes,Governed at SMKI Procedure
+Do you have a formal authorisation process that restricts and controls privileged access rights?,yes,Governed at SMKI Procedure
+Do you have a formal management process controlling the allocation of secret authentication information?,yes,Governed at SMKI Procedure
+Do you have a formal process whereby asset owners review users' access rights at regular intervals?,yes,Governed at SMKI Procedure
+Do you have a process to remove access rights for all employees and external party users to information and information processing services upon termination of their employment contract or agreement or adjust such access rights upon change?,yes,Governed at SMKI Procedure
+Are users made accountable for protecting and safeguarding their secret authentication information?,yes,Governed at SMKI Procedure
+Is access to information and application system functions restricted in accordance with the access control policy to prevent unauthorised access?,yes,Governed at SMKI Procedure
+Are secure log-on procedures in place to control access to systems and applications?,yes,Governed at SMKI Procedure
+Do you use formal password management systems that ensure quality passwords?,yes,Password quality is following Google Workspace standards.
+Do you restrict and tightly control the use of utility programs to ensure that they cannot be used to override system and application controls?,yes,Governed at SMKI Procedure and we implement control by implementation of Endpoint Detection and Response (EDR)
+Do you restrict access to program source code?,yes,Governed at SMKI Procedure and we implement control by implementation of authentication control to access code repository.
+Do you have an implemented policy on the use of cryptographic controls for the protection of information?,yes,Governed at SMKI Procedure and we implement key management at AWS KMS
+Have you created physical security perimeters to protect areas that contain either sensitive or critical information and information processing facilities?,yes,Governed at SMKI Procedure and we have certified ISO 27001
+Do you have physical security measures in place covering your organisation’s offices rooms and facilities?,yes,Governed at SMKI Procedure
+Do you ensure that all equipment containing storage media is verified to ensure that any sensitive data and licenced software as been removed or securely overwritten prior to disposal or re-use?,yes,Governed at SMKI Procedure
+Are your operation procedures documented securely held and accessible 24/7 to users that need them?,yes,Our infrastructure is located at cloud and managed by cloud proivider.
+Do you control changes to the organisation business processes information processing facilities and systems that affect information security?,yes,Governed at SMKI Procedure
+Is the performance of business applications systems and networks monitored and tuned continuously against agreed targets?,yes,Governed at SMKI Procedure
+Do you separate development test and operational environments to reduce the risks of unauthorised access or changes to the operational environment ?,yes,Governed at SMKI Procedure
+Have you implemented detection prevention and recovery controls along with appropriate user awareness to protect against malware and viruses?,yes,Governed at SMKI Procedure and we implement control by implementation of Endpoint Detection and Response (EDR)
+Do you have protocols and hardware in place to securely backup and when necessary restore the data IT and network infrastructure necessary to deliver your goods and services to third party wherever it resides. e.g. locally or as a 3rd party service i.e. Cloud Services?,yes,Governed at SMKI Procedure stored at cloud service.
+Do you employ backup retention and rotation policies which ensure multiple points of recovery from increasing lengths of time? E.g. Daily Weekly Monthly?,yes,Governed at SMKI Procedure stored at cloud service.
+Do you take backup copies of information software and system images in accordance with an agreed backup policy (including offsite storage) and regularly tests such backups to validate their usability and to confirm SLA’s.?,yes,Governed at SMKI Procedure stored at cloud service.
+Do you produce keep and regularly review event logs recording user activities exceptions faults and information security events?,yes,yes Governed at SMKI Procedure. Implementation for google workspace the log stored at EDR.
+Do you protect logging facilities and log information against tampering and unauthorised access?,yes,yes Governed at SMKI Procedure. The log can only be accessed by authorized person.
+Do you synchronize clocks of all relevant system processing systems within the organisation or security domain to a single reference time source?,yes,yes Governed at SMKI Procedure. Automatic sync to time.windows.com
+Have you implemented procedures to control the installation of software on operational systems?,yes,yes Governed at SMKI Procedure. 
+Do you regularly (e.g. <12months) manage your technical vulnerabilities by obtaining in a timely fashion information about technical vulnerabilities of information systems being used and evaluate the organisation's exposure to such vulnerabilities and take appropriate measures to address the associated risks? ,yes,yes Governed at SMKI Procedure. We perform regular VAPT internal or by engaging 3rd independent party 
+Where applicable do you employ any mechanisms or procedures to stop or mitigate the various types of Distributed Denial of Service DDOS attacks which may impact services and goods provided to third party,yes,yes we enable ddos protection in our firewall and AWS WAF.
+Where applicable do you test your DDoS defences?,yes,yes we test our ddos protection .
+Have you established and implemented controls to ensure the security of information in networks and the protection of connected services from unauthorised access?,yes,yes Governed at SMKI Procedure and implement access control in each system/application.
+Have you identified and included in all network services agreements the security mechanisms service levels and management requirements for all network services whether these services are provided in-house or outsourced.,yes,yes Governed at SMKI Procedure and implement access control in each system/application.
+Do you use segregation to protect networks by segregating groups of information services users and information systems?,yes,yes Governed at SMKI Procedure and implement network segregation.
+Have you established and implemented formal transfer policies procedures and controls to protect the transfer of information through the use of all types of communications facilities?,yes,yes Governed at SMKI Procedure and implement VPN encryption and protocols TLS 1.2.
+Do you have security information transfer agreements in place to address the secure transfer of information between your organisation and external parties?,yes,yes stipulated in the NDA with contractor/vendor.
+Do you have appropriate protection over information sent using electronic messaging?,yes,yes Governed at SMKI Procedure and implement Google Workspace security such as email encryption Google Drive security and also Email DLP.
+"Do you consider and include information security related requirements in the requirements for new information systems or enhancements to existing information systems?
+",yes,yes coverned in the Security System Engineering Principle (SSEP) Policy
+Do you protect information involved in application services passing across public networks from fraudulent activity contract dispute and unauthorised disclosure and modification.,yes,yes we implement authentication by Google SSO MFA and VPN access.
+Do you protect information involved in application service transactions to prevent incomplete transmission mis-routing unauthorised message alteration unauthorised disclosure or unauthorised message duplication or relay?,no,Halodoc do not implement online commercial transaction directly.
+Do you have established and applied rules for the development of software and systems within your organisation?,yes,yes coverned in the Security System Engineering Principle (SSEP) Policy
+Do you control and restrict any modifications to software packages?,yes,yes coverned in the Security System Engineering Principle (SSEP) Policy and SMKI Procedure and implement authentication for accessing the source code.
+Have you established documented maintained and applied to any information systems implementation efforts?,yes,yes coverned in the Security System Engineering Principle (SSEP) Policy
+Do your organization establish and and appropriately protect secure development environments for system development and integration efforts that cover the entire system development lifecycle?,yes,yes coverned in the Security System Engineering Principle (SSEP) Policy
+Do you supervise and monitor the activity of outsourced system development?,no,Halodoc does not outsource the development all are done by in-house development.
+Do carry out testing of security functionality during the development cycle?,yes,We perform security testing for deployed application.
+Have you established acceptance testing programs and related criteria to test new information systems upgrades and new versions?,yes,We perform acceptance testing for deployed application.
+Do you control and protect data used for system testing ensuring that it is carefully selected and avoiding operational data containing personally identifiable information or any other confidential information ?,yes,yes we perform the testing by using dummy data.
+Have your key suppliers that you require in order to support third party business services and/or processes been identified?			,yes,yes we have identified the supplier/3rd party.
+Do you establish and agree all relevant security requirements with each supplier that may access process store communicate or provide IT infrastructure components for organisation's information?,yes,yes stated in the agreement with NDA.
+Do you regularly monitor review and audit supplier service delivery to ensure that they maintain an agreed level of security?,yes,We regularly review and monitor their deliverables and SLA by monthly report and discussion.
+Do you manage changes to the provision of services provided by suppliers including maintaining and improving existing security policies procedures and controls taking account of the criticality of the business information systems and processes involved and re-assessment of risk?,yes,yes Governed at SMKI Procedure and implement network segregation.
+Do you have a documented strategy for exercising and testing the Business Continuity Crisis Management and IT Service Continuity Plan(s)?,yes,yes governed in our BCP Guideline.
+Is your Operational Resilience (OR) program exercised on an annual basis covering Business Continuity IT Resilience/IT Service Continuity Crisis/Incident Management. If these are not exercised/tested on an annual basis on what frequency are they exercised/tested?,yes,yes governed in our BCP Guideline.
+Do you use exercise and test results to improve and update your Business Continuity Management Crisis Management and IT Service Continuity Management programme?,yes,yes we regularly perform DR Simulation testing.
+As part of your exercises and/or tests have gaps been identified and remediated prior to the next exercise and or test?,yes,yes we regularly perform DR Simulation testing and addressing the gap.
+Have Incident Management and Crisis Management Business Continuity Management IT Service Continuity and mass notification tools been implemented?,yes,yes governed in our BCP Guideline.
+Have you established management responsibilities and procedures to ensure quick effective and orderly response to incidents and crisis (e.g. information security operational technology)?,yes,yes governed in the Cyber Security Incident Management Playbook document.
+Do you report incidents and crisis (e.g. information security operational technology) through appropriate channels and as quickly as possible?,yes,yes governed in the Cyber Security Incident Management Playbook document. We don't have any security breach for the last 12 months.
+Do you respond to incidents and crisis in accordance with documented procedures?,no,We don't have any security breach for the last 12 months.
+Do you ensure that knowledge gained from analysing and resolving incidents and crisis are used to reduce the likelihood or impact of future events?,no,We don't have any security breach for the last 12 months.
+Do you define and implement procedures for the identification collection acquisition and preservation of information which can serve as evidence?,yes,yes governed in the Cyber Security Incident Management Playbook document. 
+Has your Crisis Management Plan been reviewed in the past 12 months and updated ?,yes,yes we have reviewed our BCP Guideline every year.
+Is your Core Crisis Management Team at executive level?,yes,yes governed in our BCP Guideline.
+Have deputies been identified for all roles within the Crisis Management Team?,yes,yes governed in our BCP Guideline.
+Do you ensure that contact details are reviewed and updated to notify third party in the event of an incident/crisis impacting those services and/or process that support third party business services/processes,yes,yes still up to date.
+Have you provided third party with contact details of your Incident and Crisis Management Teams as appropriate?,yes,Will be provided once requested.
+Does the schedule provide for an annual Critical staff emergency notification cascade test?,yes,yes governed in our BCP Guideline that there will be annual testing 
+Are your senior management and operational management teams trained and experienced in managing incidents/crisis and business continuity events?,yes,yes we provide awareness session for Management especially before the simulation.
+Have all the Crisis Management Team received a training in the past 12 months ?,yes,yes we provide awareness session especially before the annual simulation.
+Are crisis exercises conducted each year to rehearse the crisis management team and validate Crisis management plans?,yes,yes.
+Do you have a communication plan / stakeholder engagement plan detailing who you would communicate to what when and how?,yes,yes governed in our BCP Guideline.
+Has your communication plan been reviewed and re issued to appropriate staff within the last 12 months?,yes,yes we provide awareness session especially before the annual simulation.
+Has the designated spokespersons received media training?,yes,yes.
+As part of your Communications policy/training is it stated that the designated spokesperson shall only refer to your organisation as part of any communications i.e. third party will not be referred to.,yes,yes.
+Has a full Business Impact Analysis (BIA) programme been conducted across your business within the last 12 months? If not when was the last full Business Impact Analysis (BIA) programme undertaken? If a FULL BIA has not been undertaken has a BIA been undertaken for Operations that support third party services and when was this last undertaken? ,yes,yes in the last September 2023.
+Have you identified the processes/activities which are essential for the delivery of the full range of your products and services required to support third party business services/processes?,yes,yes we have identified critical process and systems to our business to support our customers.
+Were all activities that support third party business services and/or processes considered and identified as critical?,yes,yes based on BIA in the BCP Guideline.
+Have the BCM Plan(s) that support third party services been reviewed in the past 12 months as identified in your BIA?,yes,yes.
+"Do your BCM plans cover the impacts of availability of :
+ - Premises
+ - Technology
+ - People
+ - Third-Parties (Internal / External)
+ - Data",yes,yes governed in our BCP Guideline.
+Do your Business Continuity plans document the key recovery activities for each of the stated recovery roles?,yes,yes governed in our BCP Guideline.
+Within in your Business Continuity plan(s) are key tasks and activities documented for Strategic and Tactical responses to be undertaken by the Business Recovery teams?,yes,yes governed in our BCP Guideline.
+"Do your Business Continuity Plan(s) that support third party services include:
+ - Recovery Time Objective (RTO)
+ - Recovery Point Objective (RPO)",yes,yes governed in our BCP Guideline.
+"Do you have a business continuity recovery strategy for availability of :
+ - Premises
+ - Technology
+ - People
+ - Third-Parties (Internal / External)
+ - Data",yes,yes governed in our BCP Guideline.
+"Do your IT Service Continuity Plan(s) that support third party services include:
+ - Recovery Time Objective (RTO)
+ - Recovery Point Objective (RPO)
+ - Service Level Agreement (SLA)",yes,yes governed in our BCP Guideline.
+Within your IT Service Continuity plan(s) are key tasks and activities documented for Strategic and Tactical responses to be undertaken by the Technology Recovery teams?,yes,yes governed in our BCP Guideline.
+Do you employ protocols or hardware to ensure the rapid recovery and reinstatement of your login authentication capability i.e. Active Directory?,yes,We use Google Workspace.
+Have the ITSCM Plan(s) that support third party services been reviewed in the past 12 months as identified in your BIA?,yes,yes.
+Have you explicitly identified documented and kept up to date for each information system in the organisation all relevant legislative regulatory or contractual requirements (i.e. labour code employment code) and the organisation's approach to meet those requirements?,yes,yes taken care by our Legal Team.
+Have you implemented appropriate procedures to ensure compliance with legislative regulator and contractual requirements related to intellectual property rights and use of proprietary software products.,yes,yes Governed at SMKI Procedure. 
+Do you protected records from loss destruction falsification unauthorized access and unauthorized release in accordance with legislator regulatory contractual and business requirements?,yes,yes Governed at SMKI Procedure. 
+Do you ensure protection and privacy of Personally Identifiable Information (PII) as required by relevant legislation and regulations?,yes,yes.
+Do you perform at planned intervals or when significant changes occur independent reviews of the organisation's approach to managing security and its implementation (i.e. control objectives controls policies processes and procedures for security)?,yes,Conducted by external party (certification body) every year for ISO 27001 and ISO 27701 certification or surveillance process.
+ Do you regularly review the compliance of information processing and procedures within their area of responsibility with the appropriate security policies standards and any other security requirements?,yes,By external review or internal audit.
+Are information systems regularly reviewed for compliance with the organisation's information security policies and standards,yes,We perform regular vulnerability assessment and penetration testing.
+Has your Operational Resilience programme including Business Continuity Management Crisis & Incident Management and IT Service Continuity Management been audited within in the last 12/24/36 months? If not when was the last audit ? Please advise this was an internal or external audit?,yes,yes during ISO 27001 and ISO 27701 audit process.
+"Does you organization have any of these ceritificatios:
+SSAE16 or ISAE3402 Type II (formally SAS70) ISO/IEC 27001 TruSecure WebTrust Cyber Essentials Cyber essentials Plus Others?",yes,yes ISO 27001 and ISO 27701.
+Have you formally assessed and documented your compliance against PCI DSS requirements in the last 12 months? If so please provide attestation as evidence,yes,Halodoc does not use credit card as payment method directly.
+Have you assessed the risks to your operations and taken the necessary actions to protect your business linking with the Operational Risk team ? If yes Has a formal review of risks to the business been conducted in the past 12 months?,no,During risk assessment process as part of ISO27001 certificaton performed annually.
+Do you identify and mitigate risks and/or threats to the business operations from specific events crisis incidents near misses exercises tests programmes and/or projects? ,yes,During risk assessment process as part of ISO27001 certificaton performed annually.
+Have the top risks to your organization threats associated key risk indicators and major crisis response actions been presented and approved by the Directors and Officers of the Company or in a dedicated Risk Committee ?,yes,yes governed in Risk Management for Information Security and Privacy Guideline.
+Were the potential financial (loss of revenue) legal/regulatory compliance reputational and customer service considered in the risk identification?,yes,yes governed in Risk Management for Information Security and Privacy Guideline.
+Is there an effective set of general IT controls in place and ensure their systems are operated and maintained effectively and securely? ,yes,we have and governed by effective Policy and Procedures.
+Does your organization use cloud or hosting services from a cloud service provider?,yes,yes
+Does the Cloud or Hosting provided have an external audit report?,yes,yes
+Has your organization had a data breach or security incident within the last 12 months?,no,no
+"Does your organization encrypt all data in transit to or from or at rest on mobile devices workstations and any other in-scope end user devices?
+If no or N/A please explain.",yes,We use encryption implemented by AWS Cloud.
+Does your organization have a documented data classification and data handling standard in place as part of IT security policy and standards?,yes,Defined in SMKI Procedure.
+Does your organization define ownership of information (data) and information systems to ensure that owners make decisions about classifying information and systems and protect them in line with this classification?,yes,yes
+Does your organization's Information Owner consult with Information Security Compliance Privacy Legal and Records Management for guidance on established processes as well as evaluating regulatory or legal implications of any Information loss or theft incident?,yes,yes
+Does your organization have Controls in place to ensure Encryption is being used when presenting information to customers via the web?,yes,Data transfer done via shared drive (encrypted) only. 
+Does your organization require removable media containing Internal Confidential or Highly Confidential information be encrypted?,no,We block USB port to prevent removable media usage.
+Does your organization store Internal Confidential or Highly Confidential information on servers within the public DMZ (Demilitarized Zone)?,no,We store the data in the AWS Cloud.
+Is all user and admin access Approved by a person’s manager or the manager’s delegate prior to any account provisioning activity?,yes,yes
+Does your organization's account provisioning process produce the following artifacts for retention: Account name Account owner Access rights Business justification Access requestor approver and approval date?,yes,yes
+Does your organization's account provisioning process require on creation account names that are unique and that every account is assigned to a single accountable person?,yes,yes
+Do Service accounts (i.e. non-user accounts) have interactive account login capabilities disabled?,no,We dont have Service Account.
+Does your organization use a centralized identity management system?,yes,yes
+Does your organization use automated Password Vaulting and are passwords approved prior to vaulting?,yes,yes
+Within the Access Management process is separation of duties enforced by ensuring the person requesting account access changes is different than the person authorizing or provisioning the request?,yes,yes
+Does your organization perform access reviews?,yes,yes
+Does your organization have a process in place to review and update access for transferred users?,yes,yes
+If not what is the timeframe?,no,no
+Does your organization have a process in place to remove access from terminated users within 24 hours?,yes,yes
+Does your organization have controls in place to log and monitor privileged sessions?,yes,yes
+Is multifactor authentication (MFA) used at the application level?,yes,yes
+Is multifactor authentication (MFA) used for personal mobile devices (Bring Your Own Devices (BYOD)?,yes,yes
+Does your organization assign network accounts with privileged access rights to an account different from a person's primary network account?,yes,yes
+Is it your organization's policy to ensure that security requirements are documented and that applications are designed built configured deployed and monitored to meet Industry best practices information security requirements?,yes,yes
+Does your organization follow a formal change and release management process for security configuration management for all network hardware and software assets on its networks?,yes,yes
+Does your organization have a process in place to ensure risk assessments are initiated to identify and evaluate security requirements?,yes,yes
+Does your organization utilize software code to support services for Manulife/JH?,yes,yes
+Does your organization perform security code scans?,yes,yes
+Does your organization remediate New critical high and medium severity issues discovered during the code review / code scan before moving the application to production?,yes,yes
+Does your organization have Controls in place to design develop deploy and test Applications and programming interfaces (APIs) in accordance with leading industry standards?,yes,yes
+Does your organization have controls in place to restrict the ability of users to install software or hardware and edit registry settings?,yes,yes
+Does your organization perform security testing for new applications or major changes to existing applications before moving to production or for applications in a non-production environment exposed to the internet?,yes,yes
+Does your organization document assess remediate or remove open-source applications for security vulnerabilities with known exploits?,yes,yes
+Does your organization register the source code repository in the enterprise IT asset inventory system?,yes,yes
+Does your organization restrict access to program source code and associated items (e.g. designs specifications verification plans validation plans)?,yes,yes
+Does your organization conduct penetration tests on Applications that are performed by either a third-party vendor or by independent staff?,yes,yes
+Does your organization document the confirmation of an application security vulnerability and the declared severity rating after the vulnerability has been detected and reviewed?,yes,yes
+Does your organization require Two-factor authentication for all code repository accounts?,yes,yes
+Does your organization require code to be enrolled and continuously monitored by an open source scanning tool for all libraries and versions in use or in development?,yes,yes
+Does your organization require major changes/updates complete static and dynamic application security testing prior to deployment to production?,yes,yes
+Does your organization have a current MANAGEMENT OF PASSWORDS policy or standard?,yes,yes
+Does the password require complexity?,yes,yes
+Do systems require a time out auto logout?,yes,yes
+Does your organization hash Passwords when stored?,yes,yes
+Does your organization maintain an asset inventory until decommissioned lost stolen destroyed or otherwise rendered unusable?,yes,yes
+Does your organization require IT assets to have an explicit owner accountable to ensure that all information risk controls are applied?,yes,yes
+Does your organization have a (Technology) Acceptable Use Policy (AUP) for employees contractors and third-party personnel?,yes,yes
+Does your organization have a security incident response policy/plan?,yes,yes
+Does your organization have an Incident Response team in place?,yes,yes
+Does your organization conduct an annual Tabletop exercise to confirm the Incident Management processes and procedures?,yes,yes
+Does your organization ensure vendor applications and systems record user and system activities exceptions faults and information security events at a minimum?,no,Vendor do not have access to our system.
+Does your organization retain event records for at least 30 days online and retained offline for 1 year?,yes,yes
+Does your organization's event logs refrain from including confidential or highly confidential information except in cases where it is unavoidable?,yes,yes
+Does your organization copy logs in real time to a separate system for storage to ensure no privileged user of the information system can alter or remove log entries?,yes,yes
+Does your organization have a Mobile device policy or a Bring Your Own Devices (BYOD) policy which monitors usage restrictions defines and establishes configurations which ensure the security of the mobile devices?,yes,yes
+Does your organization require all users to authenticate to their mobile devices? For example: use of password PIN (Personal Identification Number) or biometrics?,yes,yes
+Is there an authorization and monitoring mechanism in place to identify and allow only approved mobile devices to connect to your organization's network?,yes,yes
+Does your organization require all lost or stolen devices be reported to your service desk?,yes,yes
+Does your organization require all applications with access to Manulife/John Hancock data be formally approved prior to installation on company-owned devices?,yes,yes
+Does your organization follow the principle of least privilege for Site-to-site VPN connections limiting access to only the ports and internet protocol (IP) addresses required for business purposes?,yes,yes
+Has your organization implemented All wireless communications remote access and communications and site-to-site virtual private network (VPN) connections and communications to be encrypted?,yes,yes
+Does your organization mandate the use of multi-factor authentication (MFA) for all remote access and VPN users?,yes,yes
+Has your organization implemented protection and control over network traffic between security zones through external and internal perimeters?,yes,yes
+Has your organization implemented protection of systems by enabling tools for network detection prevention and monitoring?,yes,yes
+0 7 Is your organization's network capable of automatically detecting and blocking unauthorized systems connecting to the network?,yes,yes
+Does your organization have a network-based Intrusion Detection System (IDS) or Intrusion Prevention System (IPS)?,yes,yes
+Does your organization restrict access to the network perimeter and remote access to the network to designated personnel?,yes,yes
+Does your organization monitor and/or alert logging on events with a central platform such as a SIEM?,yes,yes
+Does your organization require systems not in the public DMZ to deny any direct connections initiated from the untrusted zone?,yes,yes
+Does your organization inspect Internet access and web content from all zones within your organization's network at all times?,yes,yes
+Does your organization configure servers within the public DMZ to be stand-alone without having membership with any internal Windows domain?,no,We don't have windows domain.
+Has your organization implemented a process which verifies Web connections to the internet are inspected for data loss protection (DLP) and malware protection?,yes,yes
+Has your organization implemented a remote access network infrastructure which is configured to confirm that the connecting end-point device is isolated from the device’s source network once the connection to your network is established?,yes,yes
+Does your organization have authentication mechanisms configured to require authentication of authorized remote access clients prior to connecting to your Internal network through remote access devices and from accessing your Network Infrastructure via the internet through a remote access gateway?,yes,yes
+Has your organization implemented any redundant network connection solutions isolated from managed networks and if so are these connections hardened following industry best practices?,yes,yes
+Does your organization network infrastructure have an architectural plan that outlines how intrusion would be detected?,yes,yes
+Does your organization's architectural plan include a project plan intrusion technology design document and connectivity diagram?,yes,yes
+Does your organization-managed network infrastructures detect and prevent intrusion at critical ingress points?,yes,yes
+Are all assets that use the trusted user access zone configured to locally deny network traffic when not connected to your network?,yes,yes
+Does your organization encrypt Wireless access point controller configurations such as the virtual router redundancy protocol (VRRP) settings and any pre-shared keys?,yes,yes
+Has your organization implemented VoIP (Voice over Internet Protocol) traffic (i.e. signaling media packets application sharing streams etc.) to be encrypted in transit between Vendor end points?,yes,yes
+Does your organization scan and assess hardening for all VoIP and video communication platforms and equipment per Industry Hardening Standards?,yes,yes
+Does your organization have non encrypted VoIP traffic? If so is this traffic logically or physically separated from the rest of the network?,no,no
+Does your organization's VoIP systems and servers have a unique and dedicated internet protocol (IP) address block or range that is separate from those used by other environments?,yes,yes
+Does your organization configure VoIP calls to be encrypted in transit between your end points and call details configured to include caller and recipient identity time of call and call duration?,yes,yes
+Has your organization implemented VoIP-aware firewalls or equivalent devices are deployed and configured to identify and mitigate attacks against VoIP protocols and block any unauthorized access to vendor VoIP systems from internal and public IP networks and to facilitate call signaling and call data stream functions using a minimal number of open ports and designated IP address ranges?,yes,yes
+Has your organization hardened all production and non-production PaaS resources in alignment with industry best practices?,no,We don't have PaaS resources
+Does non-production SaaS resources connect only to approved assets?,no,We don't have non-production SaaS resource
+Has your organization restricted Use of softphones to conduct Manulife business unless they are configured to block unauthorized connections or authentication requests to the softphone environment?,yes,yes
+Are Gateway routers configured to accept incoming traffic only from approved service provider voice gateways and block traffic from unknown sources and unapproved service provider voice gateways?,yes,yes
+"Does your organization review ""Operating procedures"" on an annual basis to ensure procedures are accurate and comprehensive?",yes,yes
+Does your organization store backups in a different location from where the primary asset/information is maintained?,yes,yes
+Does your organization encrypt all Backups containing Confidential and Highly Confidential data during transport or at rest?,yes,yes
+Does your organization test at least annually backup restoration procedures and backup media to ensure it remains suitable for backup and restoration purposes?,yes,yes
+Does your organization protect physical storage of backups from physical and environmental damage?,no,We are not storing any backups in the physical storage. All our backups are stored in Cloud
+Does your organization limit access to only authorized personnel to physical storage of backups?,no,We are not storing any backups in the physical storage. All our backups are stored in Cloud
+Does your organization monitor system resources and are projections of future capacity requirements defined tracked and monitored to ensure the required system performance?,yes,yes
+Does your organization ensure the system capacity requirements and thresholds are defined and documented for all new and existing systems that contain Manulife/JH information?,yes,yes
+Are Capacity thresholds established and notifications sent to the system’s support team(s) if they are exceeded?,yes,yes
+Does your organization mask Production data classified as Confidential or Highly Confidential before use in any non-production environment? Masking can include tokenization substitution shuffling or data variance.,yes,yes
+Does your organization require Each system or application change have one or more Change Approvers to make certain that a Change Owner cannot approve his or her own change?,yes,yes
+Does your organization require changes to be tested prior to being applied to the production environment?,yes,yes
+Does your organization require Emergency changes to be authorized prior to implementation although formal documentation may be retroactive?,yes,yes
+Does your organization require production and non-production environments to be separated to reduce the risk of unauthorized access or change to the production environment.,yes,yes
+Does your organization allow testing to be conducted in a production environment outside of an authorized change?,yes,yes
+Does your organization require an operationally critical application to be backed up at least every 7 days if information has changed since the last backup?,yes,yes
+Does your organization require certification of media disposition to be completed by the System Owner upon sanitization of each piece of electronic media?,no,The data are stored in cloud storage not in physical.
+Does your organization securely destroy non-public data no longer required?,no,The data are stored in cloud storage not in physical.
+Has your organization implemented the ability to remotely purge or wipe non-public information on devices or environments outside your direct control in the event that these devices or environments are in the possession of unauthorized individuals or entities or if no direct sanitization or destruction capability is available at the end of the information's retention period?,no,The data are stored in cloud storage not in physical.
+Does your organization utilize a threat intelligence service to help you identify assess monitor and respond to cyber-threats?,yes,yes
+Does the service subscribe to multiple threat information feeds and are these feeds integrated with a Security Information and Event Management (SIEM) solution?,yes,yes
+Does your organization follow industry best practices for Technical Hardening Requirements (THR)?,yes,yes
+Does your organization consider and mitigate cyber risk arising from the use of any unsupported software?,yes,yes
+Has your organization enabled anti-malware on all general-purpose computing devices that are capable of employing anti-malware controls?,yes,yes
+Has your organization implemented Anti-malware software configured to run a full system scan once per week?,yes,yes
+Does your organization conduct regular vulnerability hardware and software scans and testing for client server and network infrastructure to identify security control gaps?,yes,yes
+Has your organization implemented a penetration test program that is executed at least annually?,yes,yes
+Does your organization remediate critical high medium or exploitable vulnerabilities identified through the penetration test?,yes,yes
+Has your organization implemented an ongoing Vulnerability Management program that continually monitors your environment to detect vulnerabilities?,yes,yes
+Is it part of your organization's process to remediate critical high medium or exploitable vulnerabilities identified through the vulnerability testing scans?,yes,yes
+Does your organization have a process to obtain test and automatically deploy security patches and updates in a timely manner based on criticality?,yes,yes
+Does your organization remediate outstanding patches by risk level?,yes,yes
+Has your organization enabled all general-purpose computing IT assets capable of supporting Endpoint Detection and Response (EDR)?,yes,yes
+Does your organization provide privileged credentials to be used for authenticated vulnerability scans for each IT asset where an authenticated vulnerability scan is possible to eliminate false negatives?,yes,yes
+Does your organization safeguard Credentials used for authenticated vulnerability scans and passwords or keys rotated?,yes,yes
+Does your organization have a process in place to ensure scans cover the entire enterprise network?,yes,yes
+Does your organization's scans or vulnerability assessments include available threat data known exploits or active threat campaigns targeting specific CVE's (Common Vulnerabilities and Exposures)?,yes,yes
+Does your organization require endpoint protection tools to check for updates at least once per day for signatures definitions and any other updatable content?,no,Halodoc Using NGAV Crowdstrike that uses a combination of artificial intelligence behavioral detection machine learning algorithms and exploit mitigation.
+Does your organization require endpoint protection tools to generate and store logs remotely on a centralized logging system and configured to prevent privileged users from disabling the protection?,yes,yes
+Does your organization assess information security implications of using third-party products or services including the risks related to access to your systems and information assets and initiate risk treatment activities before the vendor enters into contractual relationship implementation of system/service or access to your information by third party?,yes,yes
+Does your organization perform vendor assessments to evaluate the effectiveness of the third party's risk management program including policies processes and internal controls?,yes,yes
+For vendors with a heightened level of risk does the review performed determine mandatory security clauses relevant to the third party and its scope of services?,yes,yes
+Does your organization specify third party contractual obligations in respect of information security including the frequency and the types of reports required as applicable to the services within your contracts?,yes,yes
+Does your organization conduct pre-contract due diligence to evaluate third party's control environment and conduct third party re-assessments at frequent intervals to identify manage and monitor information risks?,yes,yes
+Does your organization ensure performance issues or concerns related to your third-parties are tracked through to resolution?,yes,yes
+Does your organization review annually SOC 1 Type 2 reports bridge letters or other external audit reports for third parties who either provide services or provide an IT platform cloud solution or application directly impacting financial statements?,no,no
+Does your organization consider both control design and operating effectiveness (review external audit reports) as part of the assessment review for third parties?,yes,yes
+As part of your third-party risk management program does your organization determine and document the residual risk of the third-party?,yes,yes
+Does your organization have a policy or procedure in place to validate the data retrieval / destruction or the application migration from third party back to your organizations once a contract is terminated?,yes,yes
+Does your organization collaborate business resumption planning and recovery exercises at a minimum a table-top exercise with critical third parties?,no,no
+Does your organization perform Background checks on employees?,yes,yes
+Does your organization perform Background checks on subcontractors/contingent workers (resources provided by a third-party)?,yes,yes
+Is a background check performed for re- hired employees with a break in service greater than 12 months?,yes,yes
+Does your organization have mandatory Information Security Program training and awareness for employees?,yes,yes
+Does your organization have mandatory Information Security Program training and awareness for subcontractors/contingent workers?,yes,yes
+Does your organization have dedicated Information security personnel?,yes,yes
+Are the individuals required to participate in Continuing Education or training?,yes,yes
+Does your organization perform a Business Impact Analysis (BIA) to determine the maximum allowable downtime for all business processes?,yes,yes
+Does your organization have a Business Continuity Program?,yes,yes
+Does your organization have a Business Continuity plan?,yes,yes
+Does your organization test the Business Continuity plan annually?,yes,yes
+Does the business continuity test include notification exercises?,yes,yes
+Has your organization performed a table-top business continuity plan exercise within the past 12 months?,yes,yes
+Does your organization perform alternate site testing of its Business Continuity Program?,no,no
+Has your organization performed an unannounced alternate site exercise within the past 12 months?,no,no
+Does your organization have a Disaster Recovery Program?,yes,yes
+Does your organization perform testing of its Disaster Recovery Program?,yes,yes
+Has a Disaster Recovery Plan exercise been conducted within the past 12 months?,yes,yes
+Was the test successful?,yes,yes
+If the most recent Disaster Recover test was not successful is there a plan to retest or has it been retested?,no,no
+What is the expected Recovery Time Objective (RTO) for the most recent Disaster Recovery test?,no,The method use in the exercise is Tabletop Exercise therefore there was no RTO being set.
+What is the RTA achieved for the most recent DR test?,no,The method use in the exercise is Tabletop Exercise therefore there were no calculation on the RTA.
+What is the Recovery Point Objective (RPO) received for the most recent disaster recovery test?,no,The method use in the exercise is Tabletop Exercise therefore there was no RPO being set.
+What is the RPA achieved for the most recent DR test?,no,The method use in the exercise is Tabletop Exercise therefore there were no calculation on the RPA.
+Has your organization implemented Controls to detect and prevent emerging and known threats and enable business recovery and continued operations?,yes,yes
+If your organization's most recent Disaster recovery test was not successful is there a plan to retest or has it been retested?,no,no
+"Has your company implemented ""Secure Application Development"" either through in-house development or through a third party?",yes,User requirements phase: security risk assessment has been carried out starting before the system is designed (eg threat modeling). Development phase: System Development Environment (SDE) is separate from the production & testing environment. Development phase: Access is provided in accordance with IAM Best practices where segregation of duty and least privileges principles are implemented for development users who require access to the production environment. Development phase: Security checks are carried out both automatically (code scanning) and manually during the system development phase. Development phase: Restricted access for use of public source code repositories (e.g. : GitHub and GitLab) Testing phase: Unit test; system integration tests and stress tests/load tests must be carried out before the User Acceptance Test (UAT). Testing phase: Production data (especially containing confidential information) is not used for testing purposes unless sanitized. Deployment phase: Security testing on the application before going live and when changes are made.
+Is there commitment and support from Top Management regarding cyber security management?,yes,yes
+"Is there regular reporting on ""Cyber Security"" to the Company's Management (DIC and/or BOD)?",yes,monthly
+"Does your company conduct regular ""Gap Assessment"" of IT Security Management compared to the following International Security Framework?",yes,International Organization for Standardization (ISO) 27001; National Institute of Standards and Technology (NIST); Central of Internet Security (CIS); Cybersecurity and Infrastructure Security Agency (CISA) 5. Other
+Has there been a periodic review and update (at least once a year) of the cyber risk assessment?,yes,yes
+Has the use of cutomer data been approved by the customer?,yes,yes
+Has the use of cutomer data by third parties been approved by the customer?,yes,yes
+Does the data storage outside Indonesia comply with the existing regulations for example: Law No 11 of 2008; Law No 19 of 2016; Government Regulation 71 of 2019; POJK NUMBER 4 /POJK.05/2021; POJK NUMBER 11/POJK.03/2022; etc.?,yes,yes
+Has the implementation of MFA in remote access been applied to all types of remote access (fully)?,yes,fully
+Has your company conducted Vulnerability Assessment (VA) and Penetration Testing (Pentest)?,yes,yes
+"Has your company implemented ""Personnel Security"" & ""IT Security Awareness"" programs?",yes,Every employee (permanent/contract/outsource) has signed a contract/Non Disclosure Agreement (NDA) regarding the obligation to maintain the confidentiality/security of information.
+Does the company have a Specific Incident Response Plan (Incident Playbook)?,yes,yes
+Does the cyber incident response procedure align/tie-ins with the company's BCP?,yes,yes
+"Has your company implemented several security controls related to ""IT Continuity""?",yes,yes
