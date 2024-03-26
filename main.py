@@ -12,9 +12,15 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import nltk
 
 app = Flask(__name__)
 CORS(app)
+
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 stopwords_list = stopwords.words('english')
 lemmatizer = WordNetLemmatizer()
