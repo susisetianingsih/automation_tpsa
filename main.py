@@ -17,42 +17,9 @@ import nltk
 app = Flask(__name__)
 CORS(app)
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-
-stopwords_list = stopwords.words('english')
-lemmatizer = WordNetLemmatizer()
-
-def my_tokenizer(doc):
-    words = word_tokenize(doc)
-    
-    pos_tags = pos_tag(words)
-    
-    non_stopwords = [w for w in pos_tags if not w[0].lower() in stopwords_list]
-    
-    non_punctuation = [w for w in non_stopwords if not w[0] in string.punctuation]
-    lemmas = []
-    for w in non_punctuation:
-        if w[1].startswith('J'):
-            pos = wordnet.ADJ
-        elif w[1].startswith('V'):
-            pos = wordnet.VERB
-        elif w[1].startswith('N'):
-            pos = wordnet.NOUN
-        elif w[1].startswith('R'):
-            pos = wordnet.ADV
-        else:
-            pos = wordnet.NOUN
-        
-        lemmas.append(lemmatizer.lemmatize(w[0], pos))
-
-    return lemmas
-
 data = pd.read_csv("src/data_latih.csv")
 tfidf_vectorizer = pickle.load(open("src/tfidf.pkl", 'rb'))
-tfidf_matrix = tfidf_vectorizer.fit_transform(data['question'])
+tfidf_matrix = tfidf_vectorizer.fit_transform([' '.join(map(str, sublist)) for sublist in data['question']])
 
 @app.route('/ask', methods=['POST'])
 def ask():
