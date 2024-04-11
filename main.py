@@ -1,18 +1,10 @@
 import pandas as pd
 import numpy as np
 import pickle
-import string
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
-from nltk.corpus import wordnet
-from nltk import pos_tag
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import nltk
 
 app = Flask(__name__)
 CORS(app)
